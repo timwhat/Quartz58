@@ -1,0 +1,43 @@
+# KiCad temporary files
+*.tmp
+*~
+*.swp
+*.swo
+
+# KiCad backup files
+*-bak
+*-backup
+*.bak
+*.bck
+
+# KiCad cache files
+*-cache.lib
+*-cache.dcm
+fp-info-cache
+
+# KiCad auto-generated files
+*.net
+*.dsn
+*.ses
+
+# Fabrication outputs (optional - you might want to keep these)
+# gerber/
+# drill/
+# pos/
+
+# 3D models (can be large)
+# *.step
+# *.stp
+# *.wrl
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VS Code
+.vscode/
