@@ -30,7 +30,13 @@ created_at: "2025-07-15"
 
 ## July 15: True Beginning
 
-**Time Spent**: ~2 (so far)
+**Time Spent**: ~2 hours
 
 - Created Github repo
 - Uploaded all my documents here and started writing the journal
+
+## July 17:
+
+**Time Spent**: ~1 hours
+
+- simplifed ergogen config to remove the PCB stuff

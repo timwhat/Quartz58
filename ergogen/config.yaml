@@ -180,42 +180,42 @@ outlines:
           shift: [2 kx - 0.6 px, -0.5 ky - 0.5 py]
         - ref: mirror_matrix_outer_bottom
           shift: [-0.5 kx - 0.5 px, -0.5 ky - 0.5 py]
-  area_top_plate:
-    - what: outline
-      name: shape_top_plate
-      fillet: 2
-  combo:
-    - name: area_top_plate
-    - operation: subtract
-      name: keys
-pcbs:
-  left_quartz58:
-    outlines:
-      main:
-        outline: shape_top_plate
-    footprints:
-      mx_hotswap:
-        what: mx
-        where: true
-        params:
-          keycaps: true
-          reverse: false
-          hotswap: true
-          from: "{{column_net}}"
-          to: "{{colrow}}"
-      diode:
-        what: diode
-        where: true
-        params:
-          from: =colrow
-          to: =row_net
-        adjust:
-          shift: [0, -5]
-      mcu:
-        what: promicro
-        params:
-          orientation: "down"
-        where:
-          ref: matrix_inner_top
-          shift: [0, 0]
-          rotate: 0
+#   area_top_plate:
+#     - what: outline
+#       name: shape_top_plate
+#       fillet: 2
+#   combo:
+#     - name: area_top_plate
+#     - operation: subtract
+#       name: keys
+# pcbs:
+#   left_quartz58:
+#     outlines:
+#       main:
+#         outline: shape_top_plate
+#     footprints:
+#       mx_hotswap:
+#         what: mx
+#         where: true
+#         params:
+#           keycaps: true
+#           reverse: false
+#           hotswap: true
+#           from: "{{column_net}}"
+#           to: "{{colrow}}"
+#       diode:
+#         what: diode
+#         where: true
+#         params:
+#           from: =colrow
+#           to: =row_net
+#         adjust:
+#           shift: [0, -5]
+#       mcu:
+#         what: promicro
+#         params:
+#           orientation: "down"
+#         where:
+#           ref: matrix_inner_top
+#           shift: [0, 0]
+#           rotate: 0
