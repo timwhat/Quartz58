@@ -4,7 +4,7 @@
 
 title: "quartz58"
 author: "tim"
-description: "My attempt at a dream keyboard"
+description: "attempt at a next to no compromises keyboard"
 created_at: "2025-07-15"
 
 ---
@@ -12,8 +12,6 @@ created_at: "2025-07-15"
 **Total Time Spent**:
 
 ## ~May-July 14: Research
-
-**Time Spent**: ~8 hours
 
 - Researched split keyboards, specifically Lily58 and Corne layouts.
 - What I wanted in a keyboard/use, if I wanted a track pad, rotatory knob, leds etc.
@@ -28,16 +26,16 @@ created_at: "2025-07-15"
 
 **NOTE**: I started doing early planning, and researching part on and off throughout march, early july due to other commitments, but majority of design and firmware development is happening in July (from now on).
 
-## July 15: True Beginning
+**Time Spent**: ~8 hours
 
-**Time Spent**: ~2 hours
+## July 15: True Beginning
 
 - Created Github repo
 - Uploaded all my documents here and started writing the journal
 
-## July 17:
+**Time Spent**: ~1.5 hours
 
-**Time Spent**: ~6 hours
+## July 17:
 
 - simplifed ergogen config to remove the PCB stuff
 - TRRS conundrum
@@ -45,9 +43,12 @@ created_at: "2025-07-15"
   - Additionally with its compatibility with zmk
   - Ultimately I decided to veto it for now and if I were to have one of the above problems I would just connect each separately to the computer.
 - ANO Directional Navigation and Scroll Wheel Rotary Encoder
+  - SPENT WAYYY too much time trying to find a premade schematic and footprint for this, although all this reaserch wasn't for nothing
   - Found the white version of this encoder at digikey with the part number TSWB3NCB111LFS
   - Found datasheet for it, so I can later create my custom pcb for it
 - TPS65 Trackpad
   - Found the datasheet for it, so I can later create a custom symbol for it
 - THUS to conclude today, completed simple stuff of the schematic, although I would still need to create the custom symbols for the ANO encoder and TPS65 ENCODER
   ![progress on schematic so far](IMGS/schematic2025-07-17.png)
+
+**Time Spent**: ~6 hours
