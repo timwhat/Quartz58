@@ -37,6 +37,17 @@ created_at: "2025-07-15"
 
 ## July 17:
 
-**Time Spent**: ~1 hours
+**Time Spent**: ~6 hours
 
 - simplifed ergogen config to remove the PCB stuff
+- TRRS conundrum
+  - When deciding what to do with this keyboard I wanted a fallback just incase if there wasn't any batteries installed or I was using a normal promicro instead of a nicenano or their equivalents for them to keep working. Although when doing the schematic for the pcb I realized this is going to be a pretty difficult decision to make as I was already running out of pins, additionally there can be dangers if I do have this TRRS port to connect the two for them to fight on voltage
+  - Additionally with its compatibility with zmk
+  - Ultimately I decided to veto it for now and if I were to have one of the above problems I would just connect each separately to the computer.
+- ANO Directional Navigation and Scroll Wheel Rotary Encoder
+  - Found the white version of this encoder at digikey with the part number TSWB3NCB111LFS
+  - Found datasheet for it, so I can later create my custom pcb for it
+- TPS65 Trackpad
+  - Found the datasheet for it, so I can later create a custom symbol for it
+- THUS to conclude today, completed simple stuff of the schematic, although I would still need to create the custom symbols for the ANO encoder and TPS65 ENCODER
+  ![progress on schematic so far](IMGS/schematic2025-07-17.png)
