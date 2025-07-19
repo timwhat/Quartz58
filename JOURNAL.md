@@ -37,13 +37,13 @@ created_at: "2025-07-15"
 
 ## July 17:
 
-- simplifed ergogen config to remove the PCB stuff
+- simplified ergogen config to remove the PCB stuff
 - TRRS conundrum
   - When deciding what to do with this keyboard I wanted a fallback just incase if there wasn't any batteries installed or I was using a normal promicro instead of a nicenano or their equivalents for them to keep working. Although when doing the schematic for the pcb I realized this is going to be a pretty difficult decision to make as I was already running out of pins, additionally there can be dangers if I do have this TRRS port to connect the two for them to fight on voltage
   - Additionally with its compatibility with zmk
   - Ultimately I decided to veto it for now and if I were to have one of the above problems I would just connect each separately to the computer.
 - ANO Directional Navigation and Scroll Wheel Rotary Encoder
-  - SPENT WAYYY too much time trying to find a premade schematic and footprint for this, although all this reaserch wasn't for nothing
+  - SPENT WAYYY too much time trying to find a pre-made schematic and footprint for this, although all this research wasn't for nothing
   - Found the white version of this encoder at digikey with the part number TSWB3NCB111LFS
   - Found datasheet for it, so I can later create my custom pcb for it
 - TPS65 Trackpad
@@ -52,3 +52,17 @@ created_at: "2025-07-15"
   ![progress on schematic so far](IMGS/schematic2025-07-17.png)
 
 **Time Spent**: ~6 hours
+
+## July 18: DOWN THE RABBIT HOLE
+
+- ANO Directional Navigation and Scroll Wheel Rotary Encoder
+  - After realizing that this item (TSWB3NCB111LFS) is not in stock anywhere, I decided to contact the people who made the soflePLUS2 which features this encoder
+  - I reached out to them on instagram, they told me they were based in malaysia and their supplier based in china, which would make it really expensive to ship all the way to Canada
+  - So for now I'll just use the glossy adafruit one even though it may not match the color scheme :/
+- Schematic
+  - Learned how to create symbols in kicad and completed creating really basic symbols for the trackpad and encoder
+  - Refined more of the schematic, and started assigning footprints
+- ![TPS65](IMGS/TPS65_footprint.png)
+  ![ANO_ENCODER](IMGS/ANO_encoder_footprint.png)
+  ![progress on schematic so far v2](IMGS/schematic20250718.png)
+  **Time Spent**: ~4.5 hours

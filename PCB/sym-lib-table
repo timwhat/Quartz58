@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "ScottoKeebs")(type "KiCad")(uri "/home/tim/Documents/PCB design/library/scottokeebs-main/Extras/ScottoKicad/symbols/ScottoKeebs.kicad_sym")(options "")(descr ""))
   (lib (name "nice_view")(type "KiCad")(uri "/home/tim/Downloads/nice_view_pcb-main/nice_view.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS65")(type "KiCad")(uri "/home/tim/Documents/PCB design/library/Trackpad_TPS65.kicad_sym")(options "")(descr ""))
+  (lib (name "Encoder_TSWB3NCB111LFS")(type "KiCad")(uri "${KIPRJMOD}/Encoder_TSWB3NCB111LFS.kicad_sym")(options "")(descr ""))
 )
