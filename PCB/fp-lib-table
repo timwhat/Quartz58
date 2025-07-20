@@ -14,4 +14,6 @@
   (lib (name "ScottoKeebs_NB")(type "KiCad")(uri "/home/tim/Documents/PCB design/library/scottokeebs-main/Extras/ScottoKicad/footprints/ScottoKeebs_NB.pretty")(options "")(descr ""))
   (lib (name "ScottoKeebs_Scotto")(type "KiCad")(uri "/home/tim/Documents/PCB design/library/scottokeebs-main/Extras/ScottoKicad/footprints/ScottoKeebs_Scotto.pretty")(options "")(descr ""))
   (lib (name "ScottoKeebs_Stabilizer")(type "KiCad")(uri "/home/tim/Documents/PCB design/library/scottokeebs-main/Extras/ScottoKicad/footprints/ScottoKeebs_Stabilizer.pretty")(options "")(descr ""))
+  (lib (name "mxchochotswapcombined")(type "KiCad")(uri "/home/tim/Documents/PCB design/library/mxchochotswapcombined.pretty")(options "")(descr ""))
+  (lib (name "Hotswap_Choc_and_MX")(type "KiCad")(uri "${KIPRJMOD}/Hotswap_Choc_and_MX.pretty")(options "")(descr ""))
 )

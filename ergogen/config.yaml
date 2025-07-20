@@ -27,45 +27,45 @@ points:
       columns:
         outer:
           key:
-            column_net: P19
+            # column_net: P19
         pinky:
           key:
             spread: kx
             stagger: 3
-            column_net: P18
+            # column_net: P18
         ring:
           key:
             spread: kx
             stagger: 5
-            column_net: P15
+            # column_net: P15
         middle:
           key:
             spread: kx
             stagger: 2
-            column_net: P14
+            # column_net: P14
         index:
           key:
             spread: kx
             stagger: -2
-            column_net: P16
+            # column_net: P16
         inner:
           key:
             spread: kx
             stagger: -3
-            column_net: P10
+            # column_net: P10
       rows:
         bottom:
           padding: ky
-          row_net: P8
+          # row_net: P8
         home:
           padding: ky
-          row_net: P7
+          # row_net: P7
         top:
           padding: ky
-          row_net: P6
+          # row_net: P6
         stretch:
           padding: ky
-          row_net: P5
+          # row_net: P5
     reach:
       anchor:
         ref: matrix_inner_home
@@ -73,12 +73,12 @@ points:
       columns:
         reach:
           key:
-            column_net: P10
+            # column_net: P10
             name: index_reach
       rows:
         reach:
           rotate: 0
-          row_net: P9
+          # row_net: P9
           key:
             name: reach
     thumb:
@@ -89,30 +89,30 @@ points:
         tucky1:
           key:
             spread: kx + step
-            column_net: P15
+            # column_net: P15
             name: thumb_tucky1
         tucky2:
           key:
             spread: kx + step
-            column_net: P14
+            # column_net: P14
             name: thumb_tucky2
         tucky3:
           key:
             stagger: -3
             spread: kx + step
-            column_net: P16
+            # column_net: P16
             name: thumb_tucky3
         reachy:
           key:
             width: 1.5kx
-            origin: [0.14kx, -0.11ky]
+            origin: [0.15kx, -0.11ky]
             splay: -115
-            column_net: P10
+            # column_net: P10
             name: thumb_reachy
       rows:
         stretch:
           rotate: 0
-          row_net: P9
+          # row_net: P9
           key:
             name: thumb
   mirror:
@@ -180,42 +180,42 @@ outlines:
           shift: [2 kx - 0.6 px, -0.5 ky - 0.5 py]
         - ref: mirror_matrix_outer_bottom
           shift: [-0.5 kx - 0.5 px, -0.5 ky - 0.5 py]
-#   area_top_plate:
-#     - what: outline
-#       name: shape_top_plate
-#       fillet: 2
-#   combo:
-#     - name: area_top_plate
-#     - operation: subtract
-#       name: keys
-# pcbs:
-#   left_quartz58:
-#     outlines:
-#       main:
-#         outline: shape_top_plate
-#     footprints:
-#       mx_hotswap:
-#         what: mx
-#         where: true
-#         params:
-#           keycaps: true
-#           reverse: false
-#           hotswap: true
-#           from: "{{column_net}}"
-#           to: "{{colrow}}"
-#       diode:
-#         what: diode
-#         where: true
-#         params:
-#           from: =colrow
-#           to: =row_net
-#         adjust:
-#           shift: [0, -5]
-#       mcu:
-#         what: promicro
-#         params:
-#           orientation: "down"
-#         where:
-#           ref: matrix_inner_top
-#           shift: [0, 0]
-#           rotate: 0
+  area_top_plate:
+    - what: outline
+      name: shape_top_plate
+      fillet: 2
+  combo:
+    - name: area_top_plate
+    - operation: subtract
+      name: keys
+pcbs:
+  main:
+    outlines:
+      main:
+        outline: shape_top_plate
+    footprints:
+      mx_1:
+        what: mx
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      # diode:
+      #   what: diode
+      #   where: true
+      #   params:
+      #     from: =colrow
+      #     to: =row_net
+      #   adjust:
+      #     shift: [0, -5]
+      # mcu:
+      #   what: promicro
+      #   params:
+      #     orientation: "down"
+      #   where:
+      #     ref: matrix_inner_top
+      #     shift: [0, 0]
+      #     rotate: 0

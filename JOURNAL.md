@@ -20,49 +20,105 @@ created_at: "2025-07-15"
 - Compared and contrasted if I wanted a oled or nice!view epaper screen, with RGB to figure out battery life (just decided to go with nice!view and per key RGB and potentially 4000-2000mAh battery to also add weight)
 - Also decided to go with MX switch footprint instead of choc, due to mx's superior sound and I'm not ready to commit fully to choc switches
 - Found more specific parts such as the TPS65 Touchpad, ANO rotary wheel and comparing that to models such as the cirque track pad, and conventional knobs
-  ![LAYOUT IN ERGOGEN](IMGS/ergogenlayoutv1.png)
+
+![LAYOUT IN ERGOGEN](IMGS/ergogenlayoutv1.png)
+
 - Created onshape to continue to mess with the layout and the dimensions of the new parts
-  ![SEEING IF TPS65 CAN FIT](IMGS/beginningOfOnshape.png)
+
+![SEEING IF TPS65 CAN FIT](IMGS/beginningOfOnshape.png)
 
 **NOTE**: I started doing early planning, and researching part on and off throughout march, early july due to other commitments, but majority of design and firmware development is happening in July (from now on).
 
-**Time Spent**: ~8 hours
+**Time Spent**: 8 hours
 
 ## July 15: True Beginning
 
 - Created Github repo
 - Uploaded all my documents here and started writing the journal
 
-**Time Spent**: ~1.5 hours
+**Time Spent**: 1.5 hours
 
-## July 17:
+## July 17: Progress & Decisions
 
-- simplified ergogen config to remove the PCB stuff
-- TRRS conundrum
-  - When deciding what to do with this keyboard I wanted a fallback just incase if there wasn't any batteries installed or I was using a normal promicro instead of a nicenano or their equivalents for them to keep working. Although when doing the schematic for the pcb I realized this is going to be a pretty difficult decision to make as I was already running out of pins, additionally there can be dangers if I do have this TRRS port to connect the two for them to fight on voltage
-  - Additionally with its compatibility with zmk
-  - Ultimately I decided to veto it for now and if I were to have one of the above problems I would just connect each separately to the computer.
-- ANO Directional Navigation and Scroll Wheel Rotary Encoder
-  - SPENT WAYYY too much time trying to find a pre-made schematic and footprint for this, although all this research wasn't for nothing
-  - Found the white version of this encoder at digikey with the part number TSWB3NCB111LFS
-  - Found datasheet for it, so I can later create my custom pcb for it
-- TPS65 Trackpad
-  - Found the datasheet for it, so I can later create a custom symbol for it
-- THUS to conclude today, completed simple stuff of the schematic, although I would still need to create the custom symbols for the ANO encoder and TPS65 ENCODER
-  ![progress on schematic so far](IMGS/schematic2025-07-17.png)
+#### Ergogen Config
 
-**Time Spent**: ~6 hours
+- Simplified the Ergogen configuration to focus solely on the key layout, removing PCB-specific elements.
+
+#### TRRS Conundrum
+
+- Considered adding a TRRS port as a fallback for situations without batteries or when using a Pro Micro instead of a Nice!Nano (or equivalents).
+- Faced challenges with limited pin availability and potential voltage conflicts if both sides are connected.
+- Evaluated compatibility with ZMK firmware.
+- Ultimately decided **not** to include the TRRS port for now. If issues arise, each half will be connected separately to the computer.
+
+#### ANO Directional Navigation & Scroll Wheel Rotary Encoder
+
+- Spent significant time searching for pre-made schematic symbols and footprints.
+- Discovered the white version of the encoder (TSWB3NCB111LFS) available on Digi-Key.
+- Located the datasheet, enabling future creation of a custom PCB footprint.
+
+#### TPS65 Trackpad
+
+- Found the datasheet, which will help in creating a custom symbol for schematic integration.
+
+#### Schematic Progress
+
+- Completed basic schematic elements.
+- Next steps: create custom symbols for the ANO encoder and TPS65 trackpad.
+
+![Progress on schematic so far](IMGS/schematic2025-07-17.png)
+
+**Time Spent**: 6 hours
 
 ## July 18: DOWN THE RABBIT HOLE
 
-- ANO Directional Navigation and Scroll Wheel Rotary Encoder
-  - After realizing that this item (TSWB3NCB111LFS) is not in stock anywhere, I decided to contact the people who made the soflePLUS2 which features this encoder
-  - I reached out to them on instagram, they told me they were based in malaysia and their supplier based in china, which would make it really expensive to ship all the way to Canada
-  - So for now I'll just use the glossy adafruit one even though it may not match the color scheme :/
-- Schematic
-  - Learned how to create symbols in kicad and completed creating really basic symbols for the trackpad and encoder
-  - Refined more of the schematic, and started assigning footprints
-- ![TPS65](IMGS/TPS65_footprint.png)
-  ![ANO_ENCODER](IMGS/ANO_encoder_footprint.png)
-  ![progress on schematic so far v2](IMGS/schematic20250718.png)
-  **Time Spent**: ~4.5 hours
+### ANO Directional Navigation and Scroll Wheel Rotary Encoder
+
+- After realizing that the TSWB3NCB111LFS encoder is not in stock anywhere, I decided to contact the creators of the soflePLUS2, which features this encoder.
+- Reached out to them on Instagram; they mentioned being based in Malaysia, with their supplier in China—making shipping to Canada quite expensive.
+- For now, I'll use the glossy Adafruit encoder, even though it may not match the color scheme.
+
+### Schematic
+
+- Learned how to create symbols in KiCad and completed basic symbols for the trackpad and encoder.
+- Refined more of the schematic and started assigning footprints.
+
+<div style="display: flex;">
+  <img src="IMGS/TPS65_footprint.png" alt="TPS65" />
+  <img src="IMGS/ANO_encoder_footprint.png" alt="ANO_ENCODER" />
+</div>
+
+![Progress on schematic so far v2](IMGS/schematic20250718.png)
+
+**Time Spent**: 4.5 hours
+
+## July 19
+
+#### Custom Choc + MX hotswap
+
+- Due to my indecision I decided to make sure that I could use both choc and MX switches on these pcbs.
+- After tons of googling I couldn't find what I was looking for, although I could find it in one of the keyboards that I am using for inspo, the sofle plus 2.
+- They just layered it on top of each other so you could just chose and they had the LED at the bottom still.
+- So I decided to take the same approach and just layer two hotswap footprints on top of each other to achieve this, by following a guide on the kicad forms, which was just copying text from one file to another
+
+![Cursed hotswap footprint](IMGS/MX_Choc_Hotswap.png)
+
+- I then cleaned it up with some of the overlays stacking.
+- I do plan on making it more polished with the outlines and looks more complete, but since it doesn't effect anything else right now, only asthenics I'll worry it about it later.
+
+#### Starting PCB Laying out
+
+- I first did all the basic stuff just assigning footprints, however I didn't for my trackpad and encoder as im making those later and I'll just insert it later.
+- I then spent an hour just attempting to layout the switches according to the ergogen, then I figured out that I could just use the ergogen one, import it into mine, change the footprint to my type of switch
+- I also roughly placed some of the components such as diodes and leds to get here
+
+![PCB so far](IMGS/schematic20250720.png)
+
+- Although when doing this I ran into a problem where my thumb key was a bit too close to each other so I had to go back to ergo gen and fix that, then import it back and align it by stacking a nearby switch to not ruin the other progress I've made
+
+![minor overlap :((](IMGS/thumbKeyBeingTooClose.png)
+![fixing the thumb key in ergogen](IMGS/fixingThumbKey.png)
+
+- So far my thoughts are that I might be way in over my head due to only 10 days being left and still so much todo (CAD and zmk) and the goals I want to achieve with this keyboard, but I think I got this!!
+
+**Time Spent**: 5.5 hours
