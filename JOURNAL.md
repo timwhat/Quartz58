@@ -119,6 +119,31 @@ created_at: "2025-07-15"
 ![minor overlap :((](IMGS/thumbKeyBeingTooClose.png)
 ![fixing the thumb key in ergogen](IMGS/fixingThumbKey.png)
 
-- So far my thoughts are that I might be way in over my head due to only 10 days being left and still so much todo (CAD and zmk) and the goals I want to achieve with this keyboard, but I think I got this!!
+- So far my thoughts are that I might be way in over my head due to only ~10 days being left and still so much todo (CAD and zmk) and the goals I want to achieve with this keyboard, but I think I got this!!
 
 **Time Spent**: 5.5 hours
+
+## July 23
+
+- I had to take a break to focus on finishing my summer school, and today I just took the final exam and now I'm back, hopefully I can finish this in time
+
+#### ANO Encoder Update
+
+- After reviewing the encoders data sheet I realized I had wired the encoder wrong and I can't integrate SW1 into the matrix
+- So I just used one of the middle pins on the nice nano
+
+<div style="display: flex; gap: 16px; align-items: flex-start;">
+  <img src="IMGS/fixingAnoEncoderWiring.png" alt="new MCU and ANO Encoder wiring" style="max-width: 40%; height: auto;" />
+  <img src="IMGS/anoEncoderWiring.png" alt="ANO encoder wiring data sheet" style="max-width: 40%; height: auto;" />
+</div>
+
+- Tomorrow I will make the pcb for this ANO Encoder
+
+#### General Planning/PCB
+
+- Figured that instead of just placing each led and diode one by one, which is repetitive and might lead to mistakes I will just instead just do it in ergo gen and change the footprints and assign them like what I did for the switches
+- I might also do this for the MCU placement n stuff
+- As I'm mixing 19.05mm with 1mm stuff which makes it tricky to make it all consistent
+- which I started doing today, I also minimized the perimeter of the pcb to allow for
+
+**Time Spent**: 1.5 hours
