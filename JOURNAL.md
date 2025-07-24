@@ -55,11 +55,11 @@ created_at: "2025-07-15"
 
 - Spent significant time searching for pre-made schematic symbols and footprints.
 - Discovered the white version of the encoder (TSWB3NCB111LFS) available on Digi-Key.
-- Located the datasheet, enabling future creation of a custom PCB footprint.
+- Located the data sheet, enabling future creation of a custom PCB footprint.
 
 #### TPS65 Trackpad
 
-- Found the datasheet, which will help in creating a custom symbol for schematic integration.
+- Found the data sheet, which will help in creating a custom symbol for schematic integration.
 
 #### Schematic Progress
 
@@ -83,10 +83,8 @@ created_at: "2025-07-15"
 - Learned how to create symbols in KiCad and completed basic symbols for the trackpad and encoder.
 - Refined more of the schematic and started assigning footprints.
 
-<div style="display: flex;">
-  <img src="IMGS/TPS65_footprint.png" alt="TPS65" />
-  <img src="IMGS/ANO_encoder_footprint.png" alt="ANO_ENCODER" />
-</div>
+| ![TPS65 footprint](IMGS/TPS65_footprint.png) | ![ANO encoder footprint](IMGS/ANO_encoder_footprint.png) |
+| :------------------------------------------: | :------------------------------------------------------: |
 
 ![Progress on schematic so far v2](IMGS/schematic20250718.png)
 
@@ -132,10 +130,8 @@ created_at: "2025-07-15"
 - After reviewing the encoders data sheet I realized I had wired the encoder wrong and I can't integrate SW1 into the matrix
 - So I just used one of the middle pins on the nice nano
 
-<div style="display: flex; gap: 16px; align-items: flex-start;">
-  <img src="IMGS/fixingAnoEncoderWiring.png" alt="new MCU and ANO Encoder wiring" style="max-width: 40%; height: auto;" />
-  <img src="IMGS/anoEncoderWiring.png" alt="ANO encoder wiring data sheet" style="max-width: 40%; height: auto;" />
-</div>
+| ![new MCU and ANO Encoder wiring](IMGS/fixingAnoEncoderWiring.png) | ![ANO encoder wiring data sheet](IMGS/anoEncoderWiring.png) |
+| :----------------------------------------------------------------: | :---------------------------------------------------------: |
 
 - Tomorrow I will make the pcb for this ANO Encoder
 
