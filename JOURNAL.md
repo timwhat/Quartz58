@@ -151,7 +151,7 @@ created_at: "2025-07-15"
 - Readjusted my thumb key again to make it perfect with the references of onshape
 - I decided I liked the look of a smaller pcb that minimizes the area instead of the normal lily58 so I changed that in ergogen (taking wayy longer than I thought bc ergogen isn't as easy to use as onshape)
 - Also I put in the leds in ergogen so I can remove me manually placing it which could lead to mistakes, I didn't do this with the diodes like I planned but I want to place them fancy later to efficiently use up the space
-- this lead me to basically restarting the pcb, and I'ma
+- This lead me to basically restarting the pcb
 
 | ![redoing the thumb key again](IMGS/redoingThumbKey.png) | ![pcb update](IMGS/schematic20250725.png) |
 | :------------------------------------------------------: | :---------------------------------------: |
@@ -164,7 +164,7 @@ created_at: "2025-07-15"
 
 #### CAD more scafolding
 
-- I added in the components into the cad with the keys in a sketch to plan out where everythings gonna go
+- I added in the components into the cad with the keys in a sketch to plan out where everything's gonna go
   - Although I am still missing the acrylic cover I'm gonna make to cover the mcu and display
 
 ![cad updates](IMGS/cad20250725.png)
