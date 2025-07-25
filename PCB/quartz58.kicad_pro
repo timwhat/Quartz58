@@ -715,6 +715,22 @@
       {
         "netclass": "Default",
         "pattern": "mirror_reachy_stretch"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LED_DIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "LED_DOUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
       }
     ]
   },

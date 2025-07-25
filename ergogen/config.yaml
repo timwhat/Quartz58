@@ -1,11 +1,11 @@
 units:
   kx: 19.05
   ky: 19.05
-  px: 2
-  py: 2
+  px: 1
+  py: 1
   step: 0
   # Shift ergogen output into Kicad drawing frame
-  frame_shift_x: 140
+  frame_shift_x: 60
   frame_shift_y: -160
 
 points:
@@ -105,8 +105,8 @@ points:
         reachy:
           key:
             width: 1.5kx
-            origin: [0.15kx, -0.11ky]
-            splay: -115
+            shift: [0.1kx, -0.295ky]
+            splay: 65
             # column_net: P10
             name: thumb_reachy
       rows:
@@ -117,7 +117,7 @@ points:
             name: thumb
   mirror:
     ref: matrix_pinky_home
-    distance: 10 * kx + 5 * step + 1.5kx
+    distance: 13 * kx + 5 * step + 1.5kx
 
 outlines:
   raw:
@@ -137,53 +137,93 @@ outlines:
       points:
         - ref: matrix_outer_stretch
           shift: [-0.5 kx - 0.5px, 0.5 ky + 0.5 py]
+        - ref: matrix_outer_stretch
+          shift: [0.5 kx - 0.5px, 0.5 ky + 0.5 py]
+        - ref: matrix_pinky_stretch
+          shift: [-0.5 kx - 0.5px, .5 ky + 0.5 py]
+        - ref: matrix_pinky_stretch
+          shift: [0.5 kx - 0.5px, 0.5 ky + 0.5 py]
+        - ref: matrix_ring_stretch
+          shift: [-0.5 kx - 0.5px, 0.5 ky + 0.5 py]
+        - ref: matrix_ring_stretch
+          shift: [0.5 kx - 0.5px, 0.5 ky + 0.5 py]
         - ref: matrix_middle_stretch
-          shift: [-1 kx - 0.5px, 0.5 ky + 0.5 py]
+          shift: [-0.5 kx - 0.5px, 0.5 ky + 0.5 py]
         - ref: matrix_middle_stretch
-          shift: [3.5 kx + 1px, 0.5 ky + 0.5 py]
+          shift: [0.5 kx + 0.5px, 0.5 ky + 0.5 py]
+        - ref: matrix_index_stretch
+          shift: [-.5 kx + 0.5px, 0.5 ky + 0.5 py]
+        - ref: matrix_index_stretch
+          shift: [.5 kx + 0.5px, 0.5 ky + 0.5 py]
+        - ref: matrix_inner_stretch
+          shift: [-.5 kx + 0.5px, 0.5 ky + 0.5 py]
+        - ref: matrix_inner_stretch
+          shift: [1.5 kx + 2px, 0.5 ky + 0.5 py]
         - ref: index_reach
-          shift: [0.5 kx + 1.25px, 0.5 ky + 0.5 py]
-        - ref: index_reach
-          shift: [0.5 kx + 1.15px, -1.15 ky + 0.75 py]
+          shift: [11.525, -20.345]
         - ref: thumb_reachy
-          shift: [.7 kx + 0.5px, 0.5 ky + 0.5 py]
+          shift: [-0.75kx - 0.5px, -.5 ky - 0.5py]
+        - ref: thumb_tucky3
+          shift: [.5 kx + 0.49109px, -.5 ky - 0.5 py]
+        - ref: thumb_tucky3
+          shift: [-.5 kx - 0.5px, -.5 ky - .5 py]
+        - ref: thumb_tucky2
+          shift: [.5 kx - 0.5px, -.5 ky - .5 py]
         - ref: thumb_tucky1
-          shift: [2.6 kx - 0.5px, -0.5 ky - 1.75 py]
-        - ref: thumb_tucky1
-          shift: [-0.5 kx - 0.5px, -0.5 ky - 1.75 py]
+          shift: [-.5 kx - .5px, -.5 ky - 0.5 py]
         - ref: matrix_outer_bottom
-          shift: [2 kx - 0.6 px, -0.5 ky - 0.5 py]
+          shift: [2 kx - .5 px, -0.5 ky - 0.5 py]
         - ref: matrix_outer_bottom
           shift: [-0.5 kx - 0.5 px, -0.5 ky - 0.5 py]
 
-    # Right side (mirrored)
+    # Right side (mirrored, same as left)
     - what: polygon
       operation: stack
       points:
         - ref: mirror_matrix_outer_stretch
           shift: [-0.5 kx - 0.5px, 0.5 ky + 0.5 py]
+        - ref: mirror_matrix_outer_stretch
+          shift: [0.5 kx - 0.5px, 0.5 ky + 0.5 py]
+        - ref: mirror_matrix_pinky_stretch
+          shift: [-0.5 kx - 0.5px, 0.5 ky + 0.5 py]
+        - ref: mirror_matrix_pinky_stretch
+          shift: [0.5 kx - 0.5px, 0.5 ky + 0.5 py]
+        - ref: mirror_matrix_ring_stretch
+          shift: [-0.5 kx - 0.5px, 0.5 ky + 0.5 py]
+        - ref: mirror_matrix_ring_stretch
+          shift: [0.5 kx - 0.5px, 0.5 ky + 0.5 py]
         - ref: mirror_matrix_middle_stretch
-          shift: [-1 kx - 0.5px, 0.5 ky + 0.5 py]
+          shift: [-0.5 kx - 0.5px, 0.5 ky + 0.5 py]
         - ref: mirror_matrix_middle_stretch
-          shift: [3.5 kx + 1px, 0.5 ky + 0.5 py]
+          shift: [0.5 kx + 0.5px, 0.5 ky + 0.5 py]
+        - ref: mirror_matrix_index_stretch
+          shift: [-0.5 kx + 0.5px, 0.5 ky + 0.5 py]
+        - ref: mirror_matrix_index_stretch
+          shift: [0.5 kx + 0.5px, 0.5 ky + 0.5 py]
+        - ref: mirror_matrix_inner_stretch
+          shift: [-0.5 kx + 0.5px, 0.5 ky + 0.5 py]
+        - ref: mirror_matrix_inner_stretch
+          shift: [1.5 kx + 2px, 0.5 ky + 0.5 py]
         - ref: mirror_index_reach
-          shift: [0.5 kx + 1.25px, 0.5 ky + 0.5 py]
-        - ref: mirror_index_reach
-          shift: [0.5 kx + 1.15px, -1.15 ky + 0.75 py]
+          shift: [11.525, -20.345]
         - ref: mirror_thumb_reachy
-          shift: [.7 kx + 0.5px, 0.5 ky + 0.5 py]
+          shift: [-0.75kx - 0.5px, -.5 ky - 0.5py]
+        - ref: mirror_thumb_tucky3
+          shift: [.5 kx + 0.49109px, -.5 ky - 0.5 py]
+        - ref: mirror_thumb_tucky3
+          shift: [-.5 kx - 0.5px, -.5 ky - .5 py]
+        - ref: mirror_thumb_tucky2
+          shift: [.5 kx - 0.5px, -.5 ky - .5 py]
         - ref: mirror_thumb_tucky1
-          shift: [2.6 kx - 0.5px, -0.5 ky - 1.75 py]
-        - ref: mirror_thumb_tucky1
-          shift: [-0.5 kx - 0.5px, -0.5 ky - 1.75 py]
+          shift: [-.5 kx - .5px, -.5 ky - 0.5 py]
         - ref: mirror_matrix_outer_bottom
-          shift: [2 kx - 0.6 px, -0.5 ky - 0.5 py]
+          shift: [2 kx - .5 px, -0.5 ky - 0.5 py]
         - ref: mirror_matrix_outer_bottom
           shift: [-0.5 kx - 0.5 px, -0.5 ky - 0.5 py]
   area_top_plate:
     - what: outline
       name: shape_top_plate
-      fillet: 2
+      fillet: .5
   combo:
     - name: area_top_plate
     - operation: subtract
@@ -194,7 +234,7 @@ pcbs:
       main:
         outline: shape_top_plate
     footprints:
-      mx_1:
+      mx:
         what: mx
         where: true
         params:
@@ -203,19 +243,12 @@ pcbs:
           hotswap: true
           from: "{{column_net}}"
           to: "{{colrow}}"
-      # diode:
-      #   what: diode
-      #   where: true
-      #   params:
-      #     from: =colrow
-      #     to: =row_net
-      #   adjust:
-      #     shift: [0, -5]
-      # mcu:
-      #   what: promicro
-      #   params:
-      #     orientation: "down"
-      #   where:
-      #     ref: matrix_inner_top
-      #     shift: [0, 0]
-      #     rotate: 0
+      rgb_led:
+        what: rgb
+        where: true
+        params:
+          din: LED_DIN
+          dout: LED_DOUT
+        adjust:
+          shift: [0, -4.5]
+          rotate: 0

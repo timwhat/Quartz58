@@ -408,184 +408,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_openinput:SW_SPDT"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "openinput:SW_Micro_Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 0)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -5.08 1.27) (xy -3.81 1.27) (xy -0.635 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.81 5.08)
-					(mid -3.175 5.7038)
-					(end -2.54 5.08)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 3.81) (xy -1.27 3.81) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(pin passive line
-					(at -5.08 -2.54 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "NO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ScottoKeebs:LED_SK6812MINI"
 			(pin_names
 				(offset 0.254)
@@ -1882,7 +1704,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Shielded"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1891,7 +1716,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 4.318 2.032 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1899,8 +1724,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_Push_Shielded"
-				(at 0 4.572 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1925,7 +1750,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1934,7 +1759,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton momentary"
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1943,7 +1768,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_Shielded_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1961,30 +1786,6 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width -0.0254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2051,12 +1852,121 @@
 					)
 				)
 			)
-			(symbol "SW_Push_Shielded_1_1"
-				(rectangle
-					(start -3.048 2.54)
-					(end 3.048 -1.27)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
 					(stroke
-						(width -0.0254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2064,7 +1974,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -2073,7 +1983,43 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4538,16 +4484,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 168.91) (xy 363.22 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "269dcafc-297e-41f7-97f9-c6b122c8f2f4")
-	)
-	(wire
-		(pts
 			(xy 91.44 129.54) (xy 82.55 129.54)
 		)
 		(stroke
@@ -4968,6 +4904,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 165.1) (xy 72.39 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb5f4a3-b4f6-4060-bcae-73d2c7a808b6")
+	)
+	(wire
+		(pts
 			(xy 36.83 68.58) (xy 48.26 68.58)
 		)
 		(stroke
@@ -5035,16 +4981,6 @@
 			(type default)
 		)
 		(uuid "58e41d22-7fd4-4b1b-b5ee-c4c512c30d36")
-	)
-	(wire
-		(pts
-			(xy 77.47 165.1) (xy 77.47 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "595d987c-73cc-468f-a885-9d8c48cb4e97")
 	)
 	(wire
 		(pts
@@ -5968,16 +5904,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 165.1) (xy 77.47 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b375cc6a-3bac-45be-9a82-efbdd85a3241")
-	)
-	(wire
-		(pts
 			(xy 91.44 88.9) (xy 82.55 88.9)
 		)
 		(stroke
@@ -6205,6 +6131,16 @@
 			(type default)
 		)
 		(uuid "c82d5f9c-d6c9-419c-9d6c-8a40b98beb63")
+	)
+	(wire
+		(pts
+			(xy 359.41 168.91) (xy 367.03 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99c8ff1-6299-4eda-b316-6d38463cfe03")
 	)
 	(wire
 		(pts
@@ -6575,16 +6511,6 @@
 			(type default)
 		)
 		(uuid "e90c8e92-4874-4cc3-a009-9dffa948984c")
-	)
-	(wire
-		(pts
-			(xy 359.41 168.91) (xy 363.22 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9c29df3-6298-4e37-b411-8fa8350cf49f")
 	)
 	(wire
 		(pts
@@ -7090,22 +7016,22 @@
 	)
 	(global_label "L-BATTERY-POSITIVE"
 		(shape input)
-		(at 87.63 163.83 270)
+		(at 82.55 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "18981068-df78-4cbd-86bb-93db369f9153")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 187.0143 90)
+			(at 105.7343 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7374,6 +7300,28 @@
 			)
 		)
 	)
+	(global_label "L-RST"
+		(shape input)
+		(at 92.71 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d658ca3-5753-4c3b-bc3c-1d999155c78c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.5052 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "L-ROW0"
 		(shape input)
 		(at 125.73 193.04 180)
@@ -7420,22 +7368,22 @@
 	)
 	(global_label "R-BATTERY-POSITIVE"
 		(shape input)
-		(at 373.38 167.64 270)
+		(at 377.19 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "324b4177-2594-4a01-bf0c-923c84843732")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.38 191.0662 90)
+			(at 400.6162 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7783,28 +7731,6 @@
 		(uuid "5f6be44a-3868-48cf-b1cd-a0d97c802e62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.61 40.4367 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "R-RST"
-		(shape input)
-		(at 384.81 220.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "62216a08-7574-4ed0-bf16-c776bf0954ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 391.6052 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8608,7 +8534,7 @@
 	)
 	(global_label "L-BATTERY-POSITIVE"
 		(shape input)
-		(at 97.79 171.45 270)
+		(at 97.79 173.99 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8618,7 +8544,7 @@
 		)
 		(uuid "ebeccc24-0711-40bb-82fd-6e197f85b59b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 194.6343 90)
+			(at 97.79 197.1743 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8628,9 +8554,9 @@
 			)
 		)
 	)
-	(global_label "L-RST"
+	(global_label "R-RST"
 		(shape input)
-		(at 91.44 201.93 0)
+		(at 383.54 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8638,9 +8564,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ebfc9011-b346-44d5-ae7f-18d6f4f8f7e5")
+		(uuid "f6976584-c93b-472b-a598-2dd12051b4ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.2352 201.93 0)
+			(at 390.3352 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,6 +10065,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 77.47 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "144523c8-3fc1-43ec-9c96-ecf14bef5971")
+		(property "Reference" "SW4"
+			(at 77.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 77.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SSSS811101:SW_SSSS811101"
+			(at 77.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 77.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f57191c-349e-4adc-998c-035be10562b4")
+		)
+		(pin "3"
+			(uuid "ffd42613-77b5-4df7-b046-7b7040052341")
+		)
+		(pin "2"
+			(uuid "da1f7a40-9279-4306-b2af-b8bd6b3b05f2")
+		)
+		(instances
+			(project ""
+				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 68.58 78.74 0)
 		(unit 1)
@@ -11107,7 +11104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 171.45 90)
+		(at 105.41 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11116,7 +11113,7 @@
 		(fields_autoplaced yes)
 		(uuid "25b8ad50-0352-4670-8ff4-89d821383089")
 		(property "Reference" "#PWR013"
-			(at 111.76 171.45 0)
+			(at 111.76 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 171.4499 90)
+			(at 109.22 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,7 +11131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 171.45 0)
+			(at 105.41 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11143,7 +11140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 171.45 0)
+			(at 105.41 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11152,7 +11149,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 171.45 0)
+			(at 105.41 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13549,77 +13546,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 86.36 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ac03ce4-55a2-4bce-8db5-2886c6095968")
-		(property "Reference" "SW2"
-			(at 86.36 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Shielded"
-			(at 86.36 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 86.36 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "b8a37ddb-b385-448f-9c68-bf2aef72bb4c")
-		)
-		(pin "2"
-			(uuid "c4cf9933-0aa3-4866-aa9a-8440f4bdf9e5")
-		)
-		(pin "1"
-			(uuid "ff43500e-3d88-4198-831f-f127ee631799")
-		)
-		(instances
-			(project ""
-				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 347.98 146.05 0)
 		(unit 1)
@@ -14313,7 +14239,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 102.87 171.45 90)
+		(at 102.87 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14322,14 +14248,6 @@
 		(fields_autoplaced yes)
 		(uuid "55aeceeb-c09a-4823-9270-dceccb476764")
 		(property "Reference" "BT1"
-			(at 101.0285 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery_Cell"
 			(at 101.0285 166.37 90)
 			(effects
 				(font
@@ -14337,8 +14255,16 @@
 				)
 			)
 		)
+		(property "Value" "Battery_Cell"
+			(at 101.0285 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "ScottoKeebs_Components:Connector_1x02_JST-PH"
-			(at 101.346 171.45 90)
+			(at 101.346 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14347,7 +14273,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.346 171.45 90)
+			(at 101.346 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14356,7 +14282,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 102.87 171.45 0)
+			(at 102.87 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14980,7 +14906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 201.93 270)
+		(at 82.55 201.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14989,7 +14915,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bf5db8f-cad3-433b-9122-9aa45ddfa9db")
 		(property "Reference" "#PWR019"
-			(at 74.93 201.93 0)
+			(at 76.2 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14998,7 +14924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 201.9299 90)
+			(at 78.74 201.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15007,7 +14933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 201.93 0)
+			(at 82.55 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15016,7 +14942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 201.93 0)
+			(at 82.55 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15025,7 +14951,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 201.93 0)
+			(at 82.55 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15740,6 +15666,77 @@
 			(project "quartz58"
 				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
 					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 372.11 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68019159-8647-4e78-bfc6-8784d00d6a3e")
+		(property "Reference" "SW5"
+			(at 372.11 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 372.11 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SSSS811101:SW_SSSS811101"
+			(at 372.11 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 372.11 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee976e8-6dde-47c7-9ee2-a795ed57a589")
+		)
+		(pin "3"
+			(uuid "656da4ca-552d-435c-a02a-995a499b9d24")
+		)
+		(pin "2"
+			(uuid "338a6898-676c-4259-99c4-2fb1cf4e86cc")
+		)
+		(instances
+			(project "quartz58"
+				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -17468,6 +17465,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 373.38 210.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "892c8d76-4c15-4a2d-add0-2253e3a9978f")
+		(property "Reference" "#PWR020"
+			(at 367.03 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 369.57 210.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 373.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "576c95c5-e0ea-4a1a-be6e-d4e64a5edb5e")
+		)
+		(instances
+			(project "quartz58"
+				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 332.74 146.05 0)
 		(unit 1)
@@ -17872,72 +17936,6 @@
 			(project "quartz58"
 				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
 					(reference "D86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 379.73 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ed922e7-5ab1-4343-bb1a-7ef843df2d3d")
-		(property "Reference" "#PWR022"
-			(at 379.73 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 379.73 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 379.73 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 379.73 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 379.73 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab84a345-fe46-44ca-b41f-a8c02450d443")
-		)
-		(instances
-			(project "quartz58"
-				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -18904,6 +18902,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 378.46 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96a58cb2-4e41-41a4-b92c-b5723b51d114")
+		(property "Reference" "SW2"
+			(at 378.46 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 378.46 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ul_EVQ-PUJ02K:SW_EVQPUJ_4P7X3P5_PAN"
+			(at 378.46 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 378.46 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b18a92c-3181-4ab2-964d-89ee499e248e")
+		)
+		(pin "1"
+			(uuid "cfc437c1-184d-4c1f-991a-81a901ab89a7")
+		)
+		(instances
+			(project "quartz58"
+				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 250.19 127 90)
 		(unit 1)
@@ -19698,77 +19764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 379.73 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1484dd6-ba45-4e18-bba9-4924f1ebbb09")
-		(property "Reference" "SW5"
-			(at 379.73 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Shielded"
-			(at 379.73 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 379.73 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 379.73 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
-			(at 379.73 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "1c78ea0e-5bac-40d9-8fd0-9f707cdcfb57")
-		)
-		(pin "2"
-			(uuid "8d260120-7bd4-45d6-8054-8922ae1e9e9d")
-		)
-		(pin "1"
-			(uuid "09e65a80-6b07-49a7-9af8-206a77b7c0ff")
-		)
-		(instances
-			(project "quartz58"
-				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 393.7 115.57 180)
 		(unit 1)
@@ -20168,72 +20163,6 @@
 			(project "quartz58"
 				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
 					(reference "D119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7f09ca0-d134-4ccb-97d8-0ca39f5761e1")
-		(property "Reference" "#PWR020"
-			(at 86.36 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aabbd963-74b0-4cf5-94a5-cb7c3b0865a2")
-		)
-		(instances
-			(project "quartz58"
-				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -22139,44 +22068,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_openinput:SW_SPDT")
-		(at 82.55 161.29 0)
+		(lib_id "Switch:SW_Push")
+		(at 87.63 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c08dd10a-c824-4d8b-af68-0c909d2bc69b")
-		(property "Reference" "SW1"
-			(at 90.17 157.168 0)
+		(uuid "c14d1c52-4387-4faa-ae7f-a636880b88e2")
+		(property "Reference" "SW3"
+			(at 87.63 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 90.17 159.708 0)
+		(property "Value" "SW_Push"
+			(at 87.63 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "openinput:SW_Micro_Switch"
-			(at 82.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 161.29 0)
+		(property "Footprint" "ul_EVQ-PUJ02K:SW_EVQPUJ_4P7X3P5_PAN"
+			(at 87.63 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22184,8 +22102,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
-			(at 82.55 161.29 0)
+		(property "Datasheet" "~"
+			(at 87.63 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22193,19 +22111,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "17ec0eae-6a07-4845-ab44-2f25847f01bf")
+		(property "Description" "Push button switch, generic, two pins"
+			(at 87.63 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "b33d2462-06cf-4a09-88c3-42210b3a29a8")
+			(uuid "c048125e-b4d2-4f13-ac0e-b61def2b43f1")
 		)
-		(pin "3"
-			(uuid "a918eba5-1336-449f-aceb-c3e3f5c001ad")
+		(pin "1"
+			(uuid "873452c0-e11e-45f0-99a8-9e00dbe46ffa")
 		)
 		(instances
 			(project ""
 				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -23160,79 +23084,6 @@
 			(project "quartz58"
 				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
 					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_openinput:SW_SPDT")
-		(at 368.3 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "caf4fdbf-43ae-4bcb-a86b-a62e93959773")
-		(property "Reference" "SW4"
-			(at 375.92 160.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 375.92 163.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "openinput:SW_Micro_Switch"
-			(at 368.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 368.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3994da7-096e-49be-af32-35dd1b610f29")
-		)
-		(pin "2"
-			(uuid "53303d92-a185-48cd-9b8e-b2c78fbc3bdb")
-		)
-		(pin "3"
-			(uuid "98abbda2-7511-49ec-814f-d90eb066c2c2")
-		)
-		(instances
-			(project "quartz58"
-				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -25073,73 +24924,6 @@
 			(project "quartz58"
 				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
 					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 374.65 220.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9f10e8a-5051-4578-ab75-aecf244e4e49")
-		(property "Reference" "#PWR021"
-			(at 368.3 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 370.84 220.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 374.65 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 374.65 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 374.65 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28b50f53-8354-4f3c-bb3e-449bffd06cd6")
-		)
-		(instances
-			(project "quartz58"
-				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
