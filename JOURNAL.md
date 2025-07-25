@@ -169,4 +169,4 @@ created_at: "2025-07-15"
 
 ![cad updates](IMGS/cad20250725.png)
 
-**Time Spent**: 3.5 hours
+**Time Spent**: 4.5 hours
