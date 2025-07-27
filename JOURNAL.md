@@ -130,8 +130,8 @@ created_at: "2025-07-15"
 - After reviewing the encoders data sheet I realized I had wired the encoder wrong and I can't integrate SW1 into the matrix
 - So I just used one of the middle pins on the nice nano
 
-| ![new MCU and ANO Encoder wiring](IMGS/fixingAnoEncoderWiring.png) | ![ANO encoder wiring data sheet](IMGS/anoEncoderWiring.png) |
-| :----------------------------------------------------------------: | :---------------------------------------------------------: |
+| ![new MCU and ANO Encoder wiring](IMGS/anoEncoderWiringPt2.png) | ![ANO encoder wiring data sheet](IMGS/anoEncoderWiring.png) |
+| :-------------------------------------------------------------: | :---------------------------------------------------------: |
 
 - Tomorrow I will make the pcb for this ANO Encoder
 
@@ -144,7 +144,7 @@ created_at: "2025-07-15"
 
 **Time Spent**: 1.5 hours
 
-## July 23
+## July 24
 
 #### General PCB Stuff
 
@@ -170,3 +170,30 @@ created_at: "2025-07-15"
 ![cad updates](IMGS/cad20250725.png)
 
 **Time Spent**: 4.5 hours
+
+## July 26
+
+#### ANO Encoder
+
+- Today I made significancy more progress on this encoder
+- Made the footprint, which took a while as I've never done before and there wasn't one available online (THANK YOU DIGIKEY FOR THE AMAZING KICAD FOOTPRINT GUIDE)
+  - Some notes about this footprint is that it took a surprisingly long time and a pain to make and line up with the schematic although after some time I made it work
+- I ALSO FOUND THE GREAT FH12 FFC cable connectors to connect the trackpad and encoder daughterboard to their respective halves after tons of time searching
+  - It also took sometime finding the footprint but luckly it was in the kicad footprints library :DD
+- Also planned more out of this daughterboard pcb layout and dimensions in onshape
+
+| ![ANO Encoder Schematic Updates ](IMGS/anoEncoderWiringPt3.png) | ![ANO Encoder Footprint With FH12 Connector](IMGS/anoEncoderWiringPt4.png) | ![PCB size and perimeter decided](IMGS/cad20250727.png) |
+| :-------------------------------------------------------------: | :------------------------------------------------------------------------: | ------------------------------------------------------- |
+
+#### General PCB
+
+- Realized that the spacing between the center of the led and the center of the switch was 5.08 mm not the 4.5 I eyeballed by looking it up in the Keyboard Atelier discord
+  - Making me change that entire thing in ergogen, then transferring it backk to kicad
+- With that change and having the numbers on each of the components messed up I decided to renumber them in the schematic and then Kicad
+  - Then I went through it all and make sure each switch and led lined up with its counterpart in the schematic which was wayy too tedious
+  - At this point I settled on the leds going in a zig-zag pattern for wiring for simplicity and shorter run lengths
+- I also started placing all of the diodes on one of the halves manually so I can have more space for fancy wiring and their traces for the switches
+
+![PCB updates](IMGS/pcb20250727.png)
+
+**Time Spent**: 6.5 hours

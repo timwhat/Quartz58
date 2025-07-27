@@ -250,5 +250,5 @@ pcbs:
           din: LED_DIN
           dout: LED_DOUT
         adjust:
-          shift: [0, -4.5]
+          shift: [0, -5.08]
           rotate: 0

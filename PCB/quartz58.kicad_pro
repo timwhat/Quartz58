@@ -447,7 +447,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Encoder_TSWB3NCB111LFS"
+    ]
   },
   "meta": {
     "filename": "quartz58.kicad_pro",
