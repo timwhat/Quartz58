@@ -197,3 +197,29 @@ created_at: "2025-07-15"
 ![PCB updates](IMGS/pcb20250727.png)
 
 **Time Spent**: 6.5 hours
+
+## July 27
+
+- First thoughts, I might not be able to finish on time because of all the trouble I'm having with the pcb and other responsibility now also popping up in the next few days :/
+
+#### General PCB
+
+- In the morning I realized that the via's can't really be ontop of the pads so I changed each of them so they would be atleast 0.4mm away
+- Continued routing this pcb and ran checks
+  - This is where I got 1k+ errors due to my hacked together switch and sketch stuff, making me spend some time fixing that
+  - First with the switches I switched some of the holes to edge cuts and changing some of the settings and tweaking the overrides, along with the leds
+
+| ![PCB updates and less errors](IMGS/pcb20250728.png) | ![MX Choc Hotswap fix](IMGS/MX_Choc_HotswapPt2.png) | ![Overriding the error with the led pads being too close to the edge cut](IMGS/overideLED.png) |
+| :--------------------------------------------------: | :-------------------------------------------------: | ---------------------------------------------------------------------------------------------- |
+
+#### ANO Encoder
+
+- Created the general shape of the breakout board first in onshape then moving it to kicad
+- I might need to rotate it so that the 7 and 5 pins are away from the right edge as that would be where they would be most visible as they poke out a bit more then the others
+
+![updates to ano encoder](IMGS/anoEncoderWiringPt5.png)
+
+- Final thoughts for today, I think I need to finish the left side entirely tomorrow and I might be able to also start on the CAD and finish that within a day due to my experience
+- I also might need to do a bare bones zmk config without the fancy online key editing just for this project to be submittable on time
+
+**Time Spent**: 7 hours
