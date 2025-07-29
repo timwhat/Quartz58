@@ -223,3 +223,39 @@ created_at: "2025-07-15"
 - I also might need to do a bare bones zmk config without the fancy online key editing just for this project to be submittable on time
 
 **Time Spent**: 7 hours
+
+## July 28
+
+- Not sure why but I'm just having trouble focusing on this :// might be the amount of sleep I'm getting but I will try and get this done by hopefully end of 30th to leave the 31st for any last minute
+- Also summer school has started once again which may become a problem in the next few days
+
+#### ANO Encoder
+
+- FINALLY SHOULD'VE HAD THIS 4 DAYS AGO
+- Created daughter board footprint along with lining it up on the pcb with the connectors, also created a cutout so that the fpc connector can be passed through
+- Also I rotated and rerouted the daughter board so it would work better
+
+| ![New Daughter Board](IMGS/anoEncoderWiringPt6.png) | ![With new footprint of daughter board and wiring](IMGS/anoEncoderWiringPt7.png) | ![Integration](IMGS/pcb20250729.png) |
+| :-------------------------------------------------: | :------------------------------------------------------------------------------: | ------------------------------------ |
+
+#### General PCB
+
+- Worked on routing so the left side is basically done and should be much faster to route the other with a blue print basically
+- Got the errors down a bit more although they are minor and can be fixed relatively quickly
+- Although I realized that this doesn't have the 0.5 fillets which I might add back with the help of ergogen
+- Made the pcb exportable by fixing all of the outline errors with the mx switches and ano encoder
+
+| ![Pcb with number of errors left](IMGS/pcb20250729pt2.png) | ![CAD in kicad](IMGS/cad20250727.png) | ![CAD in onshape with mates](IMGS/cad20250729pt2.png) |
+| :--------------------------------------------------------: | :-----------------------------------: | :---------------------------------------------------: |
+
+- Also looking back on this pcb after developing more of the cad I might move the mcu along with the displays slightly
+  - Additionally I need to figure out the mounting holes for the acrilic cover
+- In the CAD this is also what I am planning so far
+
+  - Thicker bezzels (~7mm or less)
+    - Accommodate a ball catch mechanism like in the rd75
+    - and to house a gasket mounting system
+      - This will also most likely be a poron foam strips thing in the front and back mounted to the pcb (as the plate would be too high up and expose the foam)
+      - Although this might be ditched and reduced to just a plate isolating system due to time and wanting the keyboard to be relatively thin
+
+  **Time Spent**: 7 hours
