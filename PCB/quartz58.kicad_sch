@@ -25083,32 +25083,34 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x10_Pin")
-		(at 160.02 203.2 0)
+		(at 160.02 200.66 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d5eca435-1934-4577-b83f-c73fb8a24635")
 		(property "Reference" "J4"
-			(at 160.655 187.96 0)
+			(at 158.75 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x10_Pin"
-			(at 160.655 190.5 0)
+			(at 158.75 200.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal"
-			(at 160.02 203.2 0)
+			(at 160.02 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25117,7 +25119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 203.2 0)
+			(at 160.02 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25126,7 +25128,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
-			(at 160.02 203.2 0)
+			(at 160.02 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25165,7 +25167,7 @@
 			(uuid "d2c3729a-eab1-48d8-99c3-bd912899b2de")
 		)
 		(instances
-			(project ""
+			(project "quartz58"
 				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
 					(reference "J4")
 					(unit 1)
@@ -25351,7 +25353,7 @@
 	)
 	(symbol
 		(lib_id "Encoder_TSWB3NCB111LFS:TSWB3NCB111LFS")
-		(at 170.18 203.2 0)
+		(at 170.18 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25360,7 +25362,7 @@
 		(fields_autoplaced yes)
 		(uuid "d985fa2f-56a6-4de5-9bd9-2509efb57362")
 		(property "Reference" "E1"
-			(at 176.53 201.9299 0)
+			(at 176.53 196.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25369,7 +25371,7 @@
 			)
 		)
 		(property "Value" "TSWB3NCB111LFS"
-			(at 176.53 204.4699 0)
+			(at 176.53 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25378,7 +25380,7 @@
 			)
 		)
 		(property "Footprint" "ANO_Encoder:Encoder_TSWB3NCB111LFS"
-			(at 170.18 203.2 0)
+			(at 170.18 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25387,7 +25389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 203.2 0)
+			(at 170.18 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25396,7 +25398,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 203.2 0)
+			(at 170.18 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

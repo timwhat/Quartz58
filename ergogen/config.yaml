@@ -232,7 +232,7 @@ pcbs:
   main:
     outlines:
       main:
-        outline: shape_top_plate
+        outline: area_top_plate
     footprints:
       mx:
         what: mx

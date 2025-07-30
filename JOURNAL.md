@@ -255,7 +255,35 @@ created_at: "2025-07-15"
   - Thicker bezzels (~7mm or less)
     - Accommodate a ball catch mechanism like in the rd75
     - and to house a gasket mounting system
-      - This will also most likely be a poron foam strips thing in the front and back mounted to the pcb (as the plate would be too high up and expose the foam)
+      - This will also most likely be a poron foam strips thing in the front and back mounted to the plate
       - Although this might be ditched and reduced to just a plate isolating system due to time and wanting the keyboard to be relatively thin
 
   **Time Spent**: 7 hours
+
+## July 29
+
+#### ANO ENCODER
+
+- redid polarity of the encoder to work with the type A ffc cable
+- Also slightly reduced the size of the daughter board
+
+| ![Ano](IMGS/anoEncoderWiringPt8.png) | ![Closeup of connector on daughter board](IMGS/anoEncoderWiringPt9.png) | ![Closeup of connector on pcb](IMGS/anoEncoderWiringPt10.png) |
+| :----------------------------------: | :---------------------------------------------------------------------: | :-----------------------------------------------------------: |
+
+#### General PCB
+
+- updates to pcb by editing ergogen to have the .5 fillet on the pcb so its smoother
+
+#### CAD
+
+- Worked on CAD, added the plate, top case, and bottom case so far
+- I also added the supporting such as the headers for the mcu, and adding in the ano encoder with the nice!view display
+- Additionally I laid out where the ball catch mechanisms are suppose to go along with the poron gaskets
+- I spent a bit too long on figuring out how to create the case in the way I wanted due to all of the variables, although I figured it out in the end with a bunch of sketches
+
+https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b99a04d/e/52e5a88970633a5c0f63818b
+
+| ![CAD so far](IMGS/cad20250730.png) | ![Part studio of case currently with some sketches shown](IMGS/cad20250730Pt2.png) | ![hitbox for ball catch mechanism](IMGS/cad20250730pt3.png) |
+| :---------------------------------: | :--------------------------------------------------------------------------------: | :---------------------------------------------------------: |
+
+**Time Spent**: 8 hours
