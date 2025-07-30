@@ -264,7 +264,7 @@ created_at: "2025-07-15"
 
 #### ANO ENCODER
 
-- redid polarity of the encoder to work with the type A ffc cable
+- Redid polarity of the encoder to work with the type A ffc cable
 - Also slightly reduced the size of the daughter board
 
 | ![Ano](IMGS/anoEncoderWiringPt8.png) | ![Closeup of connector on daughter board](IMGS/anoEncoderWiringPt9.png) | ![Closeup of connector on pcb](IMGS/anoEncoderWiringPt10.png) |
@@ -272,7 +272,7 @@ created_at: "2025-07-15"
 
 #### General PCB
 
-- updates to pcb by editing ergogen to have the .5 fillet on the pcb so its smoother
+- Updates to pcb by editing ergogen then importing into kicad to have the .5 fillet on the pcb so its smoother
 
 #### CAD
 
