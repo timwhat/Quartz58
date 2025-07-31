@@ -460,7 +460,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Display_Cover_Mounting_Holes"
+      "Display_Cover_Mounting_Holes",
+      "tps65"
     ],
     "pinned_symbol_libs": [
       "Encoder_TSWB3NCB111LFS"
