@@ -287,3 +287,35 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 | :---------------------------------: | :--------------------------------------------------------------------------------: | :---------------------------------------------------------: |
 
 **Time Spent**: 8 hours
+
+## July 30: LOWKEY REALLY BEHIND
+
+#### CAD and PCB Stuff
+
+- Worked a bit on placement of the trackpad and creating a bounding box, starting on a case for that
+- Also rearranged a bit of the mcu with the display so they would all fit correctly above the switch
+  - Additionally I made sure the usbc wouldnt stick past the pcb so I made it 0.2mm away from the edge to play it safe
+
+| ![additions of precise mcu and display placement](IMGS/cad20250731.png) | ![track pad bounding box starting on case](IMGS/cad20250731pt2.png) |
+| :---------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+
+    before and after!
+
+| ![before, eyeballed placeholder placement of mcu and displays](IMGS/pcb20250731pt2.png) | ![now done above the switch (mcu and display placement)](IMGS/pcb20250731.png) |
+| :-------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
+
+#### MONUMENTAL ZMK RUN
+
+- I first imported the standard lily58 zmk config
+  - Customized to fit my pins, added my own shield and the encoder with its 4 buttons
+- When working on it I realized that I needed to make the numbering consistent so I make the go from 0 on the left and +1 as it got to the right cols
+- Swaped around the cs and rgb pins to high frequency ones because of reading through the docs it recommended that
+- So then I was ready to compile and it just wouldn't work so I used github co-pilot to help me understand the errors along with a friend, and then many iterations later...
+- After commenting out the cs nice!view and trackpad stuff it compiled!!!
+  https://github.com/timwhat/zmk-config-quartz58/tree/main
+- So if I have any time remaining for this I will continue to make these features work and add additional features such as cool rgb affects, If not I will work on it while I wait for my parts to ship
+
+| ![File Structure](IMGS/zmk20250731.png) | ![how many commits it took)](IMGS/zmk20250731Pt2.png) |
+| :-------------------------------------: | :---------------------------------------------------: |
+
+**Time Spent**: 7.5 hours

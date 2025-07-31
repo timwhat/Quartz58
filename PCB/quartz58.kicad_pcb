@@ -76,7 +76,7 @@
 		(pad_to_mask_clearance 0.05)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 135.539381 202.781752)
+		(grid_origin 255.976607 99.277544)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -16425,7 +16425,7 @@
 	(footprint "ScottoKeebs_Components:OLED_128x32"
 		(layer "F.Cu")
 		(uuid "2e066496-5daa-4213-bb62-fd03f1361a85")
-		(at 249.915128 119.075722 90)
+		(at 249.976607 119.167544 90)
 		(property "Reference" "J2"
 			(at 7.75 10 90)
 			(layer "F.SilkS")
@@ -47050,7 +47050,7 @@
 	(footprint "nice_view:nice_view"
 		(layer "F.Cu")
 		(uuid "6e734f86-9fed-4c17-99dc-b889abf81a05")
-		(at 255.984502 98.58447)
+		(at 255.976607 99.277544)
 		(property "Reference" "Display2"
 			(at 0 1.27 0)
 			(unlocked yes)
@@ -66717,7 +66717,7 @@
 	(footprint "nice_view:nice_view"
 		(layer "F.Cu")
 		(uuid "980f4112-c8ae-4a4a-a596-c74d4aa63ea4")
-		(at 171.086607 98.417544)
+		(at 170.251607 99.377544)
 		(property "Reference" "Display1"
 			(at 0 1.27 0)
 			(unlocked yes)
@@ -71953,7 +71953,7 @@
 	(footprint "ScottoKeebs_Components:OLED_128x32"
 		(layer "F.Cu")
 		(uuid "a7cecc8f-d2c3-44cd-ace2-23ae3afd42c6")
-		(at 165.026607 118.527544 90)
+		(at 164.251607 119.267544 90)
 		(property "Reference" "J1"
 			(at 7.75 10 90)
 			(layer "F.SilkS")
@@ -112785,7 +112785,7 @@
 	(footprint "nice-nano-kicad-master:nice_nano"
 		(layer "B.Cu")
 		(uuid "6f3bb4f5-ec81-474f-b784-6bbdb921fba5")
-		(at 256.131607 98.397544 -90)
+		(at 255.976607 99.277544 -90)
 		(property "Reference" "U2"
 			(at 0 -1.625 90)
 			(layer "B.SilkS")
@@ -130429,12 +130429,12 @@
 	(footprint "nice-nano-kicad-master:nice_nano"
 		(layer "B.Cu")
 		(uuid "def5505a-f9c0-4db6-9faf-0ae944253ee1")
-		(at 171.346607 98.397544 -90)
+		(at 170.251607 99.377544 -90)
 		(property "Reference" "U1"
 			(at 0 -1.625 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "d704e9cf-84ba-4250-aac4-a47ca17103f0")
+			(uuid "5c2bc847-2ea9-4314-8a90-81dbeb104f23")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -130447,7 +130447,7 @@
 			(at 0 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "53d1ab79-38a3-4f1f-82dc-38fa3a7a799d")
+			(uuid "c97743ef-5138-4613-a2f6-d39069be11a4")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -130460,7 +130460,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fc8b1bf4-c6ec-4356-be94-1f8fdaa70298")
+			(uuid "e75aff27-def3-4bfe-89d6-35d1feaa6d5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130473,7 +130473,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "66c257a3-3706-43d9-9b55-f0dbc3ce1e0d")
+			(uuid "7bffa8dd-2f5f-418e-8542-9bcc21b4eeac")
 			(effects
 				(font
 					(size 1.27 1.27)
