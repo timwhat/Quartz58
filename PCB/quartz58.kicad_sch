@@ -15830,7 +15830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Connector_1x02_JST-PH"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 101.346 173.99 90)
 			(effects
 				(font
@@ -16818,7 +16818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Connector_1x02_JST-PH"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 388.366 177.8 90)
 			(effects
 				(font

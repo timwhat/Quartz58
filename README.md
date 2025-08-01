@@ -4,6 +4,9 @@ attempt at a next to no compromises keyboard
 
 inspired by the lily58, SoflePLUS2, and MANY others to fit my personal needs
 
+| ![CAD](IMGS/cad20250801.png) | ![pcb](IMGS/pcb20250801.png) |
+| :--------------------------: | :--------------------------: |
+
 ## Development Log
 
 See [JOURNAL.md](JOURNAL.md) for detailed development progress and decisions

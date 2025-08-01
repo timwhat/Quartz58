@@ -9,7 +9,7 @@ created_at: "2025-07-15"
 
 ---
 
-**Total Time Spent**: 76.5 hours
+**Total Time Spent**: 78.5 hours
 
 ## ~May-July 14: Research
 
@@ -323,9 +323,27 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 ## July 31: Basically done
 
 - Will write more in a few hours to document what's been done but completed wiring on both sides of pcb
-
   - I will clean up the wiring on the right side as it was really rushed to get it in by the deadline (making the traces look nicer with some pcb pattern)
 
-- Next Steps, rename the files in the kicad to match conventions
+#### CAD and PCB Stuff
 
-**Time Spent**: 9 hours
+- Completely finished routing everything
+  - While doing this I made some changes to schematic to make routing some of the traces easier
+- Created Gerber files for quote
+- Created TPS65 Mount along with other minor stand offs
+- Continuously refined case
+  - Added Magsafe and gaskets for visuals
+
+| ![CAD](IMGS/cad20250801.png) | ![pcb](IMGS/pcb20250801.png) |
+| :--------------------------: | :--------------------------: |
+
+- Wrote BOM list
+- Completed README requirements
+
+- My Next Steps
+  - Rename the files in the kicad to match conventions
+  - Continue to polish the pcb traces and silkscreens (currently **FULLY** working this is just for asthenics)
+  - Continue to refine case if any ideas or thoughts for improvements pop up
+  - Complete ZMK as it compiles and test on the real keyboard once received
+
+**Time Spent**: 11 hours
