@@ -4,8 +4,12 @@ attempt at a next to no compromises keyboard
 
 inspired by the lily58, SoflePLUS2, and MANY others to fit my personal needs
 
-| ![CAD](IMGS/cad20250801.png) | ![pcb](IMGS/pcb20250801.png) |
-| :--------------------------: | :--------------------------: |
+| ![CAD](IMGS/cad20250801.png) | ![pcb](IMGS/pcb20250801.png) | ![schematic](IMGS/schematic20250801.png) |
+| :--------------------------: | :--------------------------: | :--------------------------------------: |
+
+The reason why I made this project was that I was always fascinated by keyboards, especially the ergonomic ones, and I just love designing things. So since this was my chance to try it I jumped at it!
+
+## Features
 
 ## Development Log
 

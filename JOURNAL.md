@@ -334,8 +334,8 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 - Continuously refined case
   - Added Magsafe and gaskets for visuals
 
-| ![CAD](IMGS/cad20250801.png) | ![pcb](IMGS/pcb20250801.png) |
-| :--------------------------: | :--------------------------: |
+| ![CAD](IMGS/cad20250801.png) | ![pcb](IMGS/pcb20250801.png) | ![schematic](IMGS/schematic20250801.png) |
+| :--------------------------: | :--------------------------: | :--------------------------------------: |
 
 - Wrote BOM list
 - Completed README requirements
