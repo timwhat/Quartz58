@@ -18,7 +18,7 @@ inspired by the lily58, SoflePLUS2, and MANY others to fit my personal needs
 
 ![Schematic](IMGS/schematic20250801.png)
 
-The reason why I made this project was that I was always fascinated by keyboards, especially the ergonomic ones, and I just love designing things. So since this was my chance to try it I jumped at it!
+The reason why I made this project was that I was always fascinated by keyboards, especially the ergonomic ones, and I just love designing things. So since this was my chance to try it, so I jumped at it!
 
 ## Features
 
@@ -58,12 +58,12 @@ See [JOURNAL.md](JOURNAL.md) for detailed development progress and decisions
 | Battery Jack                                                  | 1   | 2               | 2     | [Typeractive](https://typeractive.xyz/products/battery-jack?variant=45597492707559)                                                                                                                                                                                                                                                                                                 | 15.46          |                                                                                     |
 | Female and Male Dupont Connectors                             |     |                 | 0     |                                                                                                                                                                                                                                                                                                                                                                                     |                | Already Have                                                                        |
 
-|                                 |                   |        |        |                                                                  |        |                                                                    |
-| ------------------------------- | ----------------- | ------ | ------ | ---------------------------------------------------------------- | ------ | ------------------------------------------------------------------ |
-|                                 | CAD:              | 272.37 |        |                                                                  | 113.61 |                                                                    |
-|                                 | USD               | 197.51 |        |                                                                  | 82.38  |                                                                    |
-| PCB from JLCPCB                 | 1                 | 17.10  | 214.61 | [JLCPCB](https://cart.jlcpcb.com/quote?rand=0.04393028142638511) | 27.80  | minimum I could order was 5pcbs                                    |
-| Polycarb Cover also from JLCPCB | 1                 | 14.54  | 14.54  | [JLCPCB CNC](https://jlccnc.com/cnc-machining-quote)             | 23.34  | Quantity 2 polycarb display if I go without trackpad on right side |
-|                                 |                   |        | 133.52 |                                                                  |        |                                                                    |
-|                                 | Total:            | 362.67 |        |                                                                  |        |                                                                    |
-|                                 | With Tax (\*1.13) | 409.82 |        |                                                                  |        |                                                                    |
+|                                 |                   |        |        |                                                                  |        |                                                                                               |
+| ------------------------------- | ----------------- | ------ | ------ | ---------------------------------------------------------------- | ------ | --------------------------------------------------------------------------------------------- |
+|                                 | CAD:              | 272.37 |        |                                                                  | 113.61 |                                                                                               |
+|                                 | USD               | 197.51 |        |                                                                  | 82.38  |                                                                                               |
+| PCB from JLCPCB                 | 1                 | 17.10  | 214.61 | [JLCPCB](https://cart.jlcpcb.com/quote?rand=0.04393028142638511) | 27.80  | minimum I could order was 5pcbs                                                               |
+| Polycarb Cover also from JLCPCB | 1                 | 14.54  | 14.54  | [JLCPCB CNC](https://jlccnc.com/cnc-machining-quote)             | 23.34  | Quantity 2 polycarb display because just in case later if I go without trackpad on right side |
+|                                 |                   |        | 133.52 |                                                                  |        |                                                                                               |
+|                                 | Total:            | 362.67 |        |                                                                  |        |                                                                                               |
+|                                 | With Tax (\*1.13) | 409.82 |        |                                                                  |        |                                                                                               |
