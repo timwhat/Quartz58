@@ -319,3 +319,13 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 | :-------------------------------------: | :---------------------------------------------------: |
 
 **Time Spent**: 7.5 hours
+
+## July 31: Basically done
+
+- Will write more in a few hours to document what's been done but completed wiring on both sides of pcb
+
+  - I will clean up the wiring on the right side as it was really rushed to get it in by the deadline (making the traces look nicer with some pcb pattern)
+
+- Next Steps, rename the files in the kicad to match conventions
+
+**Time Spent**: 9 hours
