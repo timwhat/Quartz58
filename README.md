@@ -44,12 +44,11 @@ See [JOURNAL.md](JOURNAL.md) for detailed development progress and decisions
 | Battery Jack                                  | 1   | 2               | 2     | [Typeractive](https://typeractive.xyz/products/battery-jack?variant=45597492707559)                                                                                                                                                                                                                                                                                                 | 15.46          |                                                                     |
 | Female and Male Dupont Connectors             |     |                 | 0     |                                                                                                                                                                                                                                                                                                                                                                                     |                | Already Have                                                        |
 
-|                        |                   |      |        |                                                                  |        |                                 |
-| ---------------------- | ----------------- | ---- | ------ | ---------------------------------------------------------------- | ------ | ------------------------------- |
-|                        |                   | CAD: | 255.67 |                                                                  | 113.61 |                                 |
-|                        |                   | USD  | 184.42 |                                                                  | 81.95  |                                 |
-| pcb from jlcpcb in usd | 1                 | 17.1 | 201.52 | [JLCPCB](https://cart.jlcpcb.com/quote?rand=0.04393028142638511) | 27.8   | minimum I could order was 5pcbs |
-|                        |                   |      | 109.75 |                                                                  |        |                                 |
-|                        |                   |      | 109.81 |                                                                  |        |                                 |
-|                        | Total:            |      | 311.33 |                                                                  |        |                                 |
-|                        | With Tax (\*1.13) |      | 351.81 |                                                                  |        |                                 |
+|                        |                   |         |        |                                                                  |        |                                 |
+| ---------------------- | ----------------- | ------- | ------ | ---------------------------------------------------------------- | ------ | ------------------------------- |
+|                        |                   | CAD:    | 255.67 |                                                                  | 113.61 |                                 |
+|                        |                   | TO USD: | 184.42 |                                                                  | 81.95  |                                 |
+| pcb from jlcpcb in usd | 1                 | 17.10   | 109.71 | [JLCPCB](https://cart.jlcpcb.com/quote?rand=0.04393028142638511) | 27.80  | minimum I could order was 5pcbs |
+|                        |                   |         |        |                                                                  | 109.71 |                                 |
+|                        | Total:            |         | 311.14 |                                                                  |        |                                 |
+|                        | With Tax (\*1.13) |         | 351.59 |                                                                  |        |                                 |
