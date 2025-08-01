@@ -757,7 +757,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "quartz58-gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../Downloads/quartz58.step",
