@@ -9,7 +9,7 @@ created_at: "2025-07-15"
 
 ---
 
-**Total Time Spent**:
+**Total Time Spent**: 76.5 hours
 
 ## ~May-July 14: Research
 
