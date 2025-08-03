@@ -1,8 +1,8 @@
 # Quartz58
 
-attempt at a next to no compromises keyboard
+Attempt at a two places removed, no compromises keyboard
 
-inspired by the lily58, SoflePLUS2, and MANY others to fit my personal needs
+Inspired by the lily58, SoflePLUS2, and MANY others to fit my personal needs
 
 ## Images
 

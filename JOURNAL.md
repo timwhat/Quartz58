@@ -332,18 +332,56 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 - Created Gerber files for quote
 - Created TPS65 Mount along with other minor stand offs
 - Continuously refined case
-  - Added Magsafe and gaskets for visuals
+  - Added Magsafe for tenting support and gaskets for visuals
 
-| ![CAD](IMGS/cad20250801.png) | ![pcb](IMGS/pcb20250801.png) | ![schematic](IMGS/schematic20250801.png) |
-| :--------------------------: | :--------------------------: | :--------------------------------------: |
+![CAD](IMGS/cad20250801.png)
+![pcb](IMGS/pcb20250801.png)
+![schematic](IMGS/schematic20250801.png)
+| ![magsafe mount](IMGS/cad20250801pt2.png) | ![pcb](IMGS/cad20250801pt3.png) |
+| :--------------------------: | :--------------------------: |
 
 - Wrote BOM list
 - Completed README requirements
 
 - My Next Steps
   - Rename the files in the kicad to match conventions
-  - Continue to polish the pcb traces and silkscreens (currently **FULLY** working this is just for asthenics)
+  - Continue to polish the pcb traces and silkscreens (currently **FULLY** working this is just for asthenic)
   - Continue to refine case if any ideas or thoughts for improvements pop up
   - Complete ZMK as it compiles and test on the real keyboard once received
 
 **Time Spent**: 11 hours
+
+## August 1st
+
+- Today I just caught up on school work and fixing my sleep schedule, and trying to get unburnt out from this
+- I also updated the gerbers as I switched JST footprints so they are through hole and I could source it to typeractive
+
+![pcb](IMGS/pcb20250801pt2.png)
+
+**Time Spent**: 0.25 hours
+
+## August 2nd
+
+- Woke up to a slack message and my rereview being rejected sadly :/
+  - Due to this not qualifying for a 10 point project despite my nativity thinking it would and only checking with other highway members and not a reviewer.
+- I had to rethink what I wanted out of this keyboard, as I can not afford the difference in its current state
+- Basically entire day until late evening I started working on this
+
+#### PCB - SK6812 Mini Power Problem
+
+- I also realized that for the LEDS, I felt like them having such thin traces felt wrong so I decided to dive deeper
+- After looking through its [datasheet by Adafruit](https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf), it takes 1mA as static, 12mA per RGB so 37mA total at 3.7V, 29 LEDs per side, resulting in 1.073A per side.
+- Going into [digikey trace calculator](https://www.digikey.ca/en/resources/conversion-calculators/conversion-calculator-pcb-trace-width) it says the min trace with in external layers, in air would be 0.34mm, so I decided to go with .45mm trace widths to be save **IF ANYONES READING THIS PLEASE CHECK IF THIS IS CORRECT**
+  ![pcb](IMGS/tracecalc20250803.png)
+- Then I made sure the led's used their own nets, and then I set them to this new .45mm trace witdth
+- This is where I ended this part for the night I will figure out this routing tomorrow morning
+
+![pcb](IMGS/pcb20250803.png)
+
+#### BOM Update
+
+- Decided to ditch the encoder and trackpad cover for now among other items that I will save up for and purchase my self at a later date
+- Also switched the battery from 2000mAh to the 750mAh one from typeractive because they come with the jst 2.0mm connector so I dont have to buy that + slightly lighter and I don't want
+- Also optimized everything to save on shipping so I switched around the connectors to use mouser and yea! I'll hopfully have more progress tomorrow as I am less busy
+
+**Time Spent**: 2.5 hours
