@@ -385,3 +385,33 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 - Also optimized everything to save on shipping so I switched around the connectors to use mouser and yea! I'll hopfully have more progress tomorrow as I am less busy
 
 **Time Spent**: 2.5 hours
+
+## August 3rd
+
+#### PCB
+
+- After spending a afternoon jumping down the rabithole of powering these sk6812mini's looking in various discord servers I found out you also need level shifters and capacitors for these leds are 5v
+- Since by board doesnt really have room for this + this would add tons of complexity I finally made the call to ditch them, they will prob be present in the next revisions of this board
+- Also I found leds such as the sk6805 which does work at 3.3v, but they are wayyy too small and difficult to solder for my experience so yea
+- Thus now that I didn't need the LED's instead of having to choose to use the mx or choc sockets in a switch location I remembered that I saw a board that used both
+  - Since I couldn't find a footprint for this I decided to repeat what I did with the og mxchoc hs footprint and just make it again but the choc socket this time would be on the bottom
+  - Also I had to turn some of the holes into edge cuts so they wouldn't produce a warning where the two holes were too close
+
+![pcb](IMGS/pcb20250804.png)
+
+- So after removing the LED's and changing the footprint I routed everything on both sides which took some amount of time and I added a inverted thing to make it look cool
+
+![pcb](IMGS/pcb20250804pt3.png)
+
+- I also added this pattern which I might change to like a grid later on before ordering
+
+![pcb](IMGS/pcb20250804pt2.png)
+
+- After that I updated gerbers and got a jlcpcb quote again so its up to date
+- Considering cleaning up more of the traces to make this pcb perfect but, everything currently works!!
+
+## BOM
+
+- Changed some stuff around for formatting and switched the 10 pin fpc cable to 6cm as that place better fit that.
+
+**Time Spent**: 4.5 hours

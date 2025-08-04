@@ -58,7 +58,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|177996607|129832544|0fc5ba39-578b-4fa3-bc7c-efd92b1832b5|76081f19-3602-4c74-9fa4-8c878eb9c8f2",
+          ""
+        ],
+        [
+          "courtyards_overlap|249121607|129861617|ac80b2dc-6142-498b-913e-8dac14b2303b|bfe58651-a59f-405b-bdcf-e27b00c0c0d1",
+          ""
+        ],
+        [
+          "unconnected_items|171511607|118327544|e4fa4ad9-87c8-435a-af42-ec1a8cfbd147|2c0253c6-22b2-4e6a-9a8e-ae9d1d890f47",
+          ""
+        ],
+        [
+          "unconnected_items|177871607|90487544|e2322060-7dde-4038-b0de-fe02c9e42e94|712e6c83-dee9-46b3-852f-bcaacfb26ab9",
+          ""
+        ],
+        [
+          "unconnected_items|177871607|93027544|47d2e5e1-2e89-42d8-8c90-35f64db9e97c|e2322060-7dde-4038-b0de-fe02c9e42e94",
+          ""
+        ],
+        [
+          "unconnected_items|245400607|131215114|49f887fc-6e5f-4787-895c-90763a1c57a6|79ad52e9-49e1-4315-b8ba-50c37dc1ab77",
+          ""
+        ],
+        [
+          "unconnected_items|248356607|87847544|fdc86be3-5144-41a5-a927-8c1dc5fc84bd|c7f8cdff-842b-4972-bead-7c6822950eae",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -765,19 +794,19 @@
         "pattern": "GND"
       },
       {
-        "netclass": "RGB Power",
+        "netclass": "Default",
         "pattern": "L-RGBGND"
       },
       {
-        "netclass": "RGB Power",
+        "netclass": "Default",
         "pattern": "R-RGBGND"
       },
       {
-        "netclass": "RGB Power",
+        "netclass": "Default",
         "pattern": "L-RAW"
       },
       {
-        "netclass": "RGB Power",
+        "netclass": "Default",
         "pattern": "R-RAW"
       }
     ]
