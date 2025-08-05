@@ -24,26 +24,19 @@ The reason why I made this project was that I was always fascinated by keyboards
 
 ### Key Features
 
-- **58 keys**  
-   Each able to support at the same time, MX and Choc hotswap sockets!
+- **58 keys**, each able to support at the same time, MX and Choc hotswap sockets!
 
-- **Wireless**  
-   With the power ofa nice!nano clone and a 750mAh battery!
+- **Wireless**, with the power ofa nice!nano clone and a 750mAh battery!
 
-- **iPod-style Encoder**  
-   On the left side for any encoder needed jazz...
+- **iPod-style Encoder** on the left side for any encoder needed jazz... (such as volume control)
 
-- **Trackpad**  
-   On the right side, for any analog needed or gesture related jazz pt2...
+- **Trackpad** on the right side, for any analog needed or gesture related jazz pt2... (such as precision or window management)
 
-- **Gasket Mount**  
-   For improved typing feel and acoustics
+- **Gasket Mount**, for improved typing feel and acoustics
 
-- **Tenting with MagSafe Magnets**  
-   For adjustable tenting and compatibility with existing MagSafe accessories
+- **MagSafe Magnets**, for adjustable tenting and compatibility with existing MagSafe accessories!
 
-- **nice!view and OLED Display Support**  
-   On both halves to show stats like battery life, WPM, connection status, etc...
+- **nice!view and OLED Display Support** on both halves to show stats like battery life, WPM, connection status, etc...
 
 ## Development Log
 
