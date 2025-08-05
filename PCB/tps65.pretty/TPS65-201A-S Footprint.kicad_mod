@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "660f62f6-8cf2-4f46-bf65-250e3971023f")
 		(effects
 			(font
@@ -75,17 +75,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "6d8dfde0-69c0-404f-a8cd-260fac389a2e")
-	)
-	(fp_circle
-		(center 4.2 22.4)
-		(end 5.3 22.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "a696a398-9b23-45ce-90a8-a16ac905afe1")
 	)
 	(fp_line
 		(start -42.675 -12.91082)
@@ -170,6 +159,17 @@
 		)
 		(layer "F.Fab")
 		(uuid "b6cb7fba-b92a-4ea6-a38d-cae7fe79cab0")
+	)
+	(fp_circle
+		(center 4.2 22.4)
+		(end 5.3 22.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a696a398-9b23-45ce-90a8-a16ac905afe1")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)

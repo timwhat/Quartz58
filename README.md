@@ -12,7 +12,7 @@ Inspired by the lily58, SoflePLUS2, and MANY others to fit my personal needs
 
 ### PCB
 
-![PCB](IMGS/pcb20250801.png)
+![PCB](IMGS/pcb20250804pt3.png)
 
 ### Schematic
 
@@ -25,7 +25,7 @@ The reason why I made this project was that I was always fascinated by keyboards
 ### Key Features
 
 - **58 keys**  
-   Hot-swappable sockets supporting both MX and Choc style switches
+   Each able to support at the same time, MX and Choc hotswap sockets!
 
 - **Wireless**  
    With the power ofa nice!nano clone and a 750mAh battery!

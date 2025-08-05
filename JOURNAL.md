@@ -393,7 +393,7 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 - After spending a afternoon jumping down the rabithole of powering these sk6812mini's looking in various discord servers I found out you also need level shifters and capacitors for these leds are 5v
 - Since by board doesnt really have room for this + this would add tons of complexity I finally made the call to ditch them, they will prob be present in the next revisions of this board
 - Also I found leds such as the sk6805 which does work at 3.3v, but they are wayyy too small and difficult to solder for my experience so yea
-- Thus now that I didn't need the LED's instead of having to choose to use the mx or choc sockets in a switch location I remembered that I saw a board that used both
+- Thus now that I didn't need the LED's, instead of having to choose to use the mx or choc sockets in a switch location I remembered that I saw a board that used both
   - Since I couldn't find a footprint for this I decided to repeat what I did with the og mxchoc hs footprint and just make it again but the choc socket this time would be on the bottom
   - Also I had to turn some of the holes into edge cuts so they wouldn't produce a warning where the two holes were too close
 
@@ -410,8 +410,56 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 - After that I updated gerbers and got a jlcpcb quote again so its up to date
 - Considering cleaning up more of the traces to make this pcb perfect but, everything currently works!!
 
-## BOM
+#### BOM
 
 - Changed some stuff around for formatting and switched the 10 pin fpc cable to 6cm as that place better fit that.
 
 **Time Spent**: 4.5 hours
+
+## August 4th: Getting ready for review
+
+#### Display
+
+- For the display I realized that having only one pointing point with 1 screw was going to be unreliable due to it being able to rotate the cover while it is there, so I added another hole in the pcb!
+
+![adding the additional hole](IMGS/pcb20250804pt4.png)
+
+- I then added that to the CAD and switched this display cover so that it was 3d printable as the polycarbonate version was out of my price range as now I'm working under the 6 point.
+
+![new display cover](IMGS/cad20250805pt2.png)
+
+- Although it wasn't until half a day later in the late evening i realized that these hole locations are not the most great.... So I re aranged them again for the 5th time, also requiring to edit the encoder's pcb and foot print to get this perfect
+
+| ![before](IMGS/cad20250805pt3.png) | ![after!](IMGS/cad20250805pt4.png) |
+| :--------------------------------: | :--------------------------------: |
+
+- When updating the pcb however the edge cuts would just not line up no matter what even with cords, so this is where I called it for the night on this.
+
+![I am in pain](IMGS/pcb20250805.png)
+
+#### Power Switch and RST Button
+
+- Due to me having a 3D printer and probably wayyy more time to iterate on this cut out to get this absolutely perfect
+- I for now settled on this, as anything else currently, due to the gasket mounting would make this extremely complex and it would have to go up and down with the pcb n' stuff
+
+![switch and button cutout](IMGS/cad20250805pt5.png)
+
+#### Magsafe and Battery Mount
+
+- I decided to cad out basic models of these components so then they can go in their corresponding cutout for alignment!
+
+![base with additions](IMGS/cad20250804pt4.png)
+
+#### General CAD and Exploded View Experimentation
+
+- I took this time to finally recolor the pcb white, so it matches what it would look like in real life.
+- I also started to create a exploded view of the keyboard to show its complexity and to easier explain components, as now there is a really nice visual aid
+  - To further help I may use Onshape Render Studio to create nice renders of this keyboard
+
+![exploded view](IMGS/cad20250805pt6.png)
+
+- As for a while I won't be using this keyboard with the encoder as I don't have the funds I also created a version of the keyboard sides without the addons! I will later add them into their own assembly and nessary electronics n stuff!
+
+![partstudio](IMGS/cad20250805pt7.png)
+
+**Time Spent**: 5.5 hours
