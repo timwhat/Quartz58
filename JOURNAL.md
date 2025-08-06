@@ -466,10 +466,45 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 
 ## August 5th
 
-- Today I started off just by looking through the stuff and adding the oled screen to see if everything would fit correctly
+- Today I started off just by looking through the stuff and adding the oled screen to see if everything would fit correctly.
+  - Espically as, I know I am extremely indecisive so I wanted this to also work really well with choc switches if I ever decide to switch to them later.
 
-  - espically as, I know I am extremely indecisive so I wanted this to also work really well with choc switches
-  - When I did this it worked perfectly althought, I might in real life need to trim some of the actual header to make it fit due to the combination of the thumb key placement, the tolderances of copper to outside, causing the daughterboard to be this big, and inability to move the display up
-  - Although I did move the display .475mm closer, which I didnt before as I had traces running inbetween the pins, additionally I couldnt move it any more up due to the boundaries of the pads
+![with choc testing](IMGS/cad20250805pt8.png)
 
-- Working on the daughterboard it just wouldn't remvoe the self-intersect wrror on the edge cuts, it as ocurring between two arcs so i tried to add a straight line inbetween, and still no luck, I have a theory that i was related to it being connected to another arc so the combonation of these two was causing a error later down the line
+- When I did this it worked perfectly althought, I might in real life need to trim some of the actual header to make it fit due to the combination of the thumb key placement, the tolderances of copper to outside, causing the daughterboard to be this big, and inability to move the display up
+- Although I did move the display .475mm closer, which I didnt before as I had traces running inbetween the pins, additionally I couldnt move it any more up due to the boundaries of the pads
+
+![pad spacing](IMGS/pcb20250805pt2.png)
+
+- But after when looking this over in the CAD the headers would overlap soooo I had to move them back :/
+
+![headers touching](IMGS/cad20250805pt9.png)
+![fixed!](IMGS/cad20250805pt10.png)
+
+- Working on the daughterboard it just wouldn't remove the self-intersect wrror on the edge cuts, it as ocurring between two arcs so i tried to add a straight line inbetween, and still no luck, I have a theory that i was related to it being connected to another arc so the combonation of these two was causing a error later down the line
+- Hours later I finally solved it, it was a combination of this being really complex, with two arcs interspeting and the entire thing not being complete soo I just connected everything (this was really painful to go back and fourth on the onshape and kicad to figure this out)
+- This part is a expansion on yesterday so not that indepth
+- Because I basically redid the shape of the daughterboard I updated the acording footprint and their location on the pcb so they were still good with the hole locations for the fpc cable pass through, below is it being unaligned and fixed!
+
+![it being fixed!!!](IMGS/pcb20250805pt3.png)
+![realigning the hole](IMGS/pcb20250805pt5.png)
+![rearanging the connector](IMGS/pcb20250805pt4.png)
+![it being fixed!!!](IMGS/pcb20250806pt6.png)
+
+- I also created little indents in the bottom case so my 8.0mmx1.5mm rubber feet can fit snug and are more difficult to remove
+- While I was at it I also added a 0.1mm indent for my magsafe just as a visual indicator of where it is
+
+![it being fixed!!!](IMGS/cad20250806.png)
+
+- While looking around the case I found out that some of the fillets were not really lining up between the bottom case and the top case so I decided instead of using the fillet tool that I would just manually do it as I had much more control with the sketch
+- thus creating a much better fillet n stuff
+- And then when there were places where this wasn't possible I just added a .8 fillet along with a .2 on the insides
+
+![before](IMGS/cad20250806pt2.png)
+![it being fixed!!!](IMGS/cad20250806.png)
+
+- Getting me here, the basically complete CAD!
+
+![full cad!](IMGS/cad20250806pt3.png)
+
+**Time Spent**: 6.5 hours
