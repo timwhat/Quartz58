@@ -299,7 +299,7 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 | ![additions of precise mcu and display placement](IMGS/cad20250731.png) | ![track pad bounding box starting on case](IMGS/cad20250731pt2.png) |
 | :---------------------------------------------------------------------: | :-----------------------------------------------------------------: |
 
-    before and after!
+before and after!
 
 | ![before, eyeballed placeholder placement of mcu and displays](IMGS/pcb20250731pt2.png) | ![now done above the switch (mcu and display placement)](IMGS/pcb20250731.png) |
 | :-------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
@@ -443,6 +443,8 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 - I for now settled on this, as anything else currently, due to the gasket mounting would make this extremely complex and it would have to go up and down with the pcb n' stuff
 
 ![switch and button cutout](IMGS/cad20250805pt5.png)
+
+- Eventually when I have the components I want to make something like this as I feel as though it'll be much easier to prodotype this
 
 #### Magsafe and Battery Mount
 
