@@ -10,7 +10,7 @@ Inspired by the lily58, SoflePLUS2, and MANY others to fit my personal needs
 
 ![CAD](IMGS/cad20250806pt3.png)
 
-**Exploded view of the CAD currently**
+Exploded view of the CAD currently
 
 ![Exploded view!](IMGS/cad20250806pt5.png)
 
@@ -34,7 +34,7 @@ The reason why I made this project was that I was always fascinated by keyboards
 
 - **58 keys**, each able to support at the same time, MX and Choc hotswap sockets!
 
-- **Wireless**, with the power ofa nice!nano clone and a 750mAh battery!
+- **Wireless**, with the power of a nice!nano clone and a 750mAh battery!
 
 - **iPod-style Encoder** on the left side for any encoder needed jazz... (such as volume control)
 
