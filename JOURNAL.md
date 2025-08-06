@@ -463,3 +463,13 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 ![partstudio](IMGS/cad20250805pt7.png)
 
 **Time Spent**: 5.5 hours
+
+## August 5th
+
+- Today I started off just by looking through the stuff and adding the oled screen to see if everything would fit correctly
+
+  - espically as, I know I am extremely indecisive so I wanted this to also work really well with choc switches
+  - When I did this it worked perfectly althought, I might in real life need to trim some of the actual header to make it fit due to the combination of the thumb key placement, the tolderances of copper to outside, causing the daughterboard to be this big, and inability to move the display up
+  - Although I did move the display .475mm closer, which I didnt before as I had traces running inbetween the pins, additionally I couldnt move it any more up due to the boundaries of the pads
+
+- Working on the daughterboard it just wouldn't remvoe the self-intersect wrror on the edge cuts, it as ocurring between two arcs so i tried to add a straight line inbetween, and still no luck, I have a theory that i was related to it being connected to another arc so the combonation of these two was causing a error later down the line
