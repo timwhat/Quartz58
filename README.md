@@ -10,6 +10,10 @@ Inspired by the lily58, SoflePLUS2, and MANY others to fit my personal needs
 
 ![CAD](IMGS/cad20250806pt3.png)
 
+**Exploded view of the CAD currently**
+
+![Exploded view!](IMGS/cad20250806pt5.png)
+
 ### PCB
 
 ![PCB](IMGS/pcb20250806.png)
