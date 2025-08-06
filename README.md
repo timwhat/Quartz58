@@ -8,15 +8,19 @@ Inspired by the lily58, SoflePLUS2, and MANY others to fit my personal needs
 
 ### CAD
 
-![CAD](IMGS/cad20250801.png)
+![CAD](IMGS/cad20250806pt3.png)
 
 ### PCB
 
-![PCB](IMGS/pcb20250804pt3.png)
+![PCB](IMGS/pcb20250806.png)
+
+With the fill!
+
+![with the fill](IMGS/pcb20250806pt2.png)
 
 ### Schematic
 
-![Schematic](IMGS/schematic20250801.png)
+![Schematic](IMGS/schematic20250805.png)
 
 The reason why I made this project was that I was always fascinated by keyboards, especially the ergonomic ones, and I just love designing things. So since this was my chance to try it, so I jumped at it!
 

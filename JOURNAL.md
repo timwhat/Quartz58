@@ -9,7 +9,7 @@ created_at: "2025-07-15"
 
 ---
 
-**Total Time Spent**: 78.5 hours
+**Total Time Spent**: 97.75 hours
 
 ## ~May-July 14: Research
 
@@ -478,7 +478,10 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 
 - But after when looking this over in the CAD the headers would overlap soooo I had to move them back :/
 
+Them headers touching
 ![headers touching](IMGS/cad20250805pt9.png)
+
+Not Touching/Fixed
 ![fixed!](IMGS/cad20250805pt10.png)
 
 - Working on the daughterboard it just wouldn't remove the self-intersect wrror on the edge cuts, it as ocurring between two arcs so i tried to add a straight line inbetween, and still no luck, I have a theory that i was related to it being connected to another arc so the combonation of these two was causing a error later down the line
@@ -487,9 +490,8 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 - Because I basically redid the shape of the daughterboard I updated the acording footprint and their location on the pcb so they were still good with the hole locations for the fpc cable pass through, below is it being unaligned and fixed!
 
 ![it being fixed!!!](IMGS/pcb20250805pt3.png)
-![realigning the hole](IMGS/pcb20250805pt5.png)
-![rearanging the connector](IMGS/pcb20250805pt4.png)
-![it being fixed!!!](IMGS/pcb20250806pt6.png)
+| ![realigning the hole](IMGS/pcb20250805pt5.png) | ![rearanging the connector](IMGS/pcb20250805pt4.png) | ![it being fixed!!!](IMGS/pcb20250806pt6.png) |
+| :---------------------------------------------: | :-------------------------------------------------: | :--------------------------------------------: |
 
 - I also created little indents in the bottom case so my 8.0mmx1.5mm rubber feet can fit snug and are more difficult to remove
 - While I was at it I also added a 0.1mm indent for my magsafe just as a visual indicator of where it is
@@ -506,5 +508,10 @@ https://cad.onshape.com/documents/873cec737929b1b06537c433/w/1c9e733c7d397ada1b9
 - Getting me here, the basically complete CAD!
 
 ![full cad!](IMGS/cad20250806pt3.png)
+
+ALSO my excuse for getting it so close to the deadline is because of summer school (I am in pain.)
+and onshape while updating one of my context's decided to crashout on me :/ but I fixed it pretty quickly resulting in the picture above!
+
+![why](IMGS/cad20250806pt4.png)
 
 **Time Spent**: 6.5 hours
