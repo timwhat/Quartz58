@@ -517,3 +517,28 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 ![why](IMGS/cad20250806pt4.png)
 
 **Time Spent**: 6.5 hours
+
+## August 15th: Comin back!
+
+#### Grant and BOM stuff
+
+- I got my project approved for the 10 point! even though I was told to resub as a 6 point due to only being a keyboard, so I messaged my reviewer to confirm, and to see if I can alocate everything to fit under the grant!
+- I am also preparing everything to order in the typeractive cart and aliexpress, although when looking it over I saw that the 750mAh battery from typeractive was unable to be shipped to Canada where I live so I'll be prob switching that to a ali alternative, which I'm also confirming with alex (reason why I didn't work on this a day before was because I had a few back to back deadlines on summer school :/ but now I'm free for a dayishhh)
+- Over the next day I will update the BOM to match these changes, but if I get reduced back to a 6 pointer I'll revert it!
+
+- I since I'm not getting the batteries anymore from typeractive the shipping is basically $15 so I switchign it so that I'm getting the MX sockets from here instead, I'll also ask tomorrow if this is allowedd with my reviewer
+
+![](IMGS/bom20250816.png)
+![](IMGS/bom20250816pt2.png)
+
+#### PCB
+
+- Here I was kindof annoyed with the over doing of the silkscreen around the MCU so I just got rid of it in the footprint, and I make the font better on the nice!vew footprint
+  - But before I order I might change it so that the silkscreen for the pins on the otherside so its more visible for future reference
+- I also did some minor trace cleaning up
+
+![](IMGS/pcb20250816.png)
+![](IMGS/pcb20250816pt2.png)
+![](IMGS/pcb20250816pt3.png)
+
+**Time Spent**: 1.5 hours
