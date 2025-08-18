@@ -66,8 +66,8 @@
 		(uuid "37424252-f884-415a-923a-aae0863c254c")
 	)
 	(fp_circle
-		(center -6.26 44.4)
-		(end -5.16 44.4)
+		(center -7.525 46.25)
+		(end -6.425 46.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -76,19 +76,30 @@
 		(layer "Edge.Cuts")
 		(uuid "6d8dfde0-69c0-404f-a8cd-260fac389a2e")
 	)
-	(fp_line
-		(start -42.675 -12.91082)
-		(end -42.675 43.88918)
+	(fp_circle
+		(center 5.6 41.45)
+		(end 6.7 41.45)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "152df50c-2e8f-4417-9208-19febe95a764")
+	)
+	(fp_line
+		(start -42.675 -11.65)
+		(end -42.675 45.15)
+		(stroke
+			(width 0.1)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "85057a81-f704-48ef-918d-47a11a8ea5bf")
 	)
 	(fp_line
-		(start -37.175 -18.41082)
-		(end 3.625 -18.41082)
+		(start -37.175 -17.15)
+		(end 3.625 -17.15)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -97,29 +108,29 @@
 		(uuid "8fd96693-482c-47dc-8f11-54413cf6b415")
 	)
 	(fp_line
-		(start -37.175 49.38918)
-		(end 3.625 49.38918)
+		(start -37.175 50.65)
+		(end 3.625 50.65)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "b142fc87-a4b5-4b5d-a452-0a7dd1113ca9")
 	)
 	(fp_line
-		(start 9.125 -12.91082)
-		(end 9.125 43.88918)
+		(start 9.125 -11.65)
+		(end 9.125 45.15)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "fd4fcaf3-5916-4b11-bd72-547da2b2bd30")
 	)
 	(fp_arc
-		(start -42.675 -12.91082)
-		(mid -41.064087 -16.799907)
-		(end -37.175 -18.41082)
+		(start -42.675 -11.65)
+		(mid -41.064087 -15.539087)
+		(end -37.175 -17.15)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -128,9 +139,9 @@
 		(uuid "30cdc7e1-23b0-4c6c-b617-2ac23c704dd3")
 	)
 	(fp_arc
-		(start -37.175 49.38918)
-		(mid -41.064087 47.778267)
-		(end -42.675 43.88918)
+		(start -37.175 50.64)
+		(mid -41.064087 49.029087)
+		(end -42.675 45.14)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -139,9 +150,9 @@
 		(uuid "da125330-7675-4b03-9dfb-9b0f81e5c12b")
 	)
 	(fp_arc
-		(start 3.625 -18.41082)
-		(mid 7.514087 -16.799907)
-		(end 9.125 -12.91082)
+		(start 3.61 -17.14)
+		(mid 7.499087 -15.529087)
+		(end 9.11 -11.64)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -150,9 +161,9 @@
 		(uuid "a28335b9-ad87-4ade-96e2-0d2cd10d20d8")
 	)
 	(fp_arc
-		(start 9.125 43.88918)
-		(mid 7.514087 47.778267)
-		(end 3.625 49.38918)
+		(start 9.13 45.12)
+		(mid 7.527657 49.024734)
+		(end 3.63 50.644213)
 		(stroke
 			(width 0.1)
 			(type solid)

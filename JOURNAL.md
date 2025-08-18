@@ -528,8 +528,8 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 
 - I since I'm not getting the batteries anymore from typeractive the shipping is basically $15 so I switchign it so that I'm getting the MX sockets from here instead, I'll also ask tomorrow if this is allowedd with my reviewer
 
-![](IMGS/bom20250816.png)
-![](IMGS/bom20250816pt2.png)
+| ![](IMGS/bom20250816.png) | ![](IMGS/bom20250816pt2.png) |
+| :-----------------------: | :--------------------------: |
 
 #### PCB
 
@@ -537,8 +537,35 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
   - But before I order I might change it so that the silkscreen for the pins on the otherside so its more visible for future reference
 - I also did some minor trace cleaning up
 
-![](IMGS/pcb20250816.png)
-![](IMGS/pcb20250816pt2.png)
-![](IMGS/pcb20250816pt3.png)
+| ![](IMGS/pcb20250816.png) | ![](IMGS/pcb20250816pt2.png) | ![](IMGS/pcb20250816pt3.png) |
+| :-----------------------: | :--------------------------: | :--------------------------: |
 
-**Time Spent**: 1.5 hours
+**Time Spent**: 1 hours
+
+## August 16th: is this what overthinking feels like
+
+#### In-decision abt PCB
+
+- When I was looking at the battery connector I was a bit conflicted after looking at more boards, and i decided to rotate it 90 degrees since then it would be easier to fit a bigger battery
+- I was also considering having it be able to be mounted under the MCU if I ever go with a slim build with the extra pcbs, but I just stuck with it being under, sicne its gonna be really conflicting with the display n stuff, routing wires around that, and if I had any regrets I'll just fix it in the next iteration
+
+![](IMGS/pcb20250817pt2.png)
+
+- Added another hole for the trackpad so it would be stronger which I should've done from the start, and in CAD
+  | ![](IMGS/pcb20250817.png) | ![](IMGS/cad20250817.png) |
+  | :-----------------------: | :----------------------: |
+
+- I added some silk screen n stuff for the name, revision of this keyboard, date, and my github user in a small empty space on the pcb!
+- I also figured out how to change the color in the pcb 3d viewer, so I changed the color to white, and silkscreen to black
+- I ALSO ALSO learned about the hatch fill pattern and now my pcb looks a bit cooler!!
+- Additionally I just optimized the routing a bit more so it looked a bit nicer
+
+| ![](IMGS/pcb20250817pt3.png) | ![](IMGS/pcb20250817pt4.png) |
+| :--------------------------: | :--------------------------: |
+
+#### BOM update (hopefully final)
+
+- I changed my BOM to use some generic aliexpress vendor for the battery, I wanted to keep it high so its like set and forget so I went for a 2000mAh one with 2.0mm jst headers
+- And then I rearranged and updated the prices of the stuff on the BOM ready to update my reviewer to look over the changes I made to make sure its goodd!
+
+**Time Spent**: 3 hours

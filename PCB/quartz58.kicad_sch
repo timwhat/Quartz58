@@ -997,183 +997,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Encoder_TSWB3NCB111LFS:TSWB3NCB111LFS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1392,6 +1215,183 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SL_Connectors:JST_02"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JST_02"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "JST Connector  2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "JST 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_02_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -1.27 -2.54) (xy 1.27 -2.54) (xy 1.27 -1.778) (xy 1.016 -1.778) (xy 1.016 -2.286)
+						(xy -1.016 -2.286) (xy -1.016 -1.778) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.254 1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.254 -1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 1.778)
+					(end 1.27 -1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy 1.27 2.54) (xy -1.27 2.54) (xy -1.27 1.778) (xy -1.016 1.778) (xy -1.016 2.286)
+						(xy 1.016 2.286) (xy 1.016 1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "JST_02_1_1"
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3395,7 +3395,7 @@
 	)
 	(rectangle
 		(start 248.92 166.37)
-		(end 336.55 214.63)
+		(end 340.36 214.63)
 		(stroke
 			(width 0.4)
 			(type dash)
@@ -5881,29 +5881,7 @@
 	)
 	(global_label "R-BATTERY-POSITIVE"
 		(shape input)
-		(at 313.69 185.42 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03a58ee7-8cc7-4c21-b9ff-01e098410758")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 208.8462 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L-COL1"
-		(shape input)
-		(at 60.96 195.58 0)
+		(at 326.39 199.39 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5911,9 +5889,9 @@
 			)
 			(justify left)
 		)
-		(uuid "070ad203-5916-4e26-a72c-745db0884865")
+		(uuid "03a58ee7-8cc7-4c21-b9ff-01e098410758")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3838 195.58 0)
+			(at 326.39 175.9638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,6 +6319,28 @@
 			)
 		)
 	)
+	(global_label "L-COL2"
+		(shape input)
+		(at 60.96 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28a277da-895f-4905-b03f-35d40bf33535")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3838 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "L-ROW0"
 		(shape input)
 		(at 96.52 68.58 0)
@@ -6473,28 +6473,6 @@
 			)
 		)
 	)
-	(global_label "L-COL5"
-		(shape input)
-		(at 60.96 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e2af4a4-11f0-4e95-beba-5a827561be6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3838 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COMB"
 		(shape input)
 		(at 133.35 107.95 180)
@@ -6513,28 +6491,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L-COL0"
-		(shape input)
-		(at 60.96 193.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43059fb1-70a5-4adc-87fa-0c97c1af7b96")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3838 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6596,6 +6552,28 @@
 		(uuid "47714fb6-4c9e-493e-b7ad-64bffdb96bed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.7666 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L-COL0"
+		(shape input)
+		(at 60.96 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e5e93b4-0f68-4eee-9dbe-a7c12b3cf7b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3838 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6781,6 +6759,28 @@
 			)
 		)
 	)
+	(global_label "L-COL1"
+		(shape input)
+		(at 60.96 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "628e61f0-9e42-4c83-bfe2-1fa492612e87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3838 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R-COL4"
 		(shape input)
 		(at 260.35 196.85 180)
@@ -6838,6 +6838,28 @@
 		(uuid "69c6c7dd-824e-46af-9380-6cb90cd48ab9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 325.7466 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L-BATTERY-POSITIVE"
+		(shape input)
+		(at 96.52 201.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69e0829c-0089-4d29-9373-c05b3f5e0667")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 178.7457 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,6 +6931,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L-COL4"
+		(shape input)
+		(at 60.96 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73e50bf6-0e58-4e34-94c8-67ea538f2c32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3838 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7023,28 +7067,6 @@
 			)
 		)
 	)
-	(global_label "L-COL3"
-		(shape input)
-		(at 60.96 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ca7d963-2e76-4b4c-9337-061f7c1da6c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3838 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "L-ROW1"
 		(shape input)
 		(at 96.52 88.9 0)
@@ -7089,6 +7111,28 @@
 			)
 		)
 	)
+	(global_label "L-COL3"
+		(shape input)
+		(at 60.96 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a78245e-cae6-4880-a72e-9dc4d67c448e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3838 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "L-ROW3"
 		(shape input)
 		(at 30.48 200.66 180)
@@ -7107,28 +7151,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L-COL4"
-		(shape input)
-		(at 60.96 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9452947d-07bd-4a34-9c01-457666a304c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3838 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7366,28 +7388,6 @@
 		(uuid "c39be7bf-8030-4aa4-b453-ce63a29254dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 364.9957 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L-COL2"
-		(shape input)
-		(at 60.96 198.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cade2a11-c746-46cf-b2a2-158d027be54a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3838 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,6 +7683,28 @@
 			)
 		)
 	)
+	(global_label "L-COL5"
+		(shape input)
+		(at 60.96 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e61ce3fa-d74d-4ea7-88f1-51f4550f233a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3838 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "L-ROW4"
 		(shape input)
 		(at 30.48 203.2 180)
@@ -7696,28 +7718,6 @@
 		(uuid "e8ab0766-a5e2-4758-85c1-a122c6dc3a55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 19.6329 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L-BATTERY-POSITIVE"
-		(shape input)
-		(at 93.98 184.15 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ebeccc24-0711-40bb-82fd-6e197f85b59b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 207.3343 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11028,6 +11028,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Connectors:JST_02")
+		(at 327.66 203.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5074d594-c367-4d5c-891b-c79623cfe0b9")
+		(property "Reference" "J6"
+			(at 331.47 201.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_02"
+			(at 331.47 204.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 334.01 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST Connector  2 pins"
+			(at 327.66 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af889e3d-d7de-40db-b89b-ee1b454bf64b")
+		)
+		(pin "2"
+			(uuid "501801fe-4661-4e82-a670-dabb1312927d")
+		)
+		(instances
+			(project "quartz58"
+				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 72.39 64.77 90)
 		(unit 1)
@@ -11333,74 +11403,6 @@
 			(project "quartz58"
 				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
 					(reference "S37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 99.06 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55aeceeb-c09a-4823-9270-dceccb476764")
-		(property "Reference" "BT1"
-			(at 97.2185 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 97.2185 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 97.536 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.536 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dda4c37-8530-4203-a557-809f97e902ef")
-		)
-		(pin "2"
-			(uuid "d39bceb7-f96a-4a7f-b332-0baa870b66bb")
-		)
-		(instances
-			(project ""
-				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -12072,74 +12074,6 @@
 			(project "quartz58"
 				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
 					(reference "D67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 318.77 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ff6c2a5-fd1e-48df-b373-b210176a3c5e")
-		(property "Reference" "BT2"
-			(at 316.9285 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 316.9285 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 317.246 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.246 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 318.77 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12714dc1-4283-4ee1-8e15-56375b871947")
-		)
-		(pin "2"
-			(uuid "78fad873-fe4c-4f76-9e8d-535483f8ea49")
-		)
-		(instances
-			(project "quartz58"
-				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
-					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -13164,6 +13098,76 @@
 			(project "quartz58"
 				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
 					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Connectors:JST_02")
+		(at 97.79 205.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7420b34b-38cd-4141-9988-5edc0d388a5b")
+		(property "Reference" "J5"
+			(at 101.6 204.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_02"
+			(at 101.6 207.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 104.14 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST Connector  2 pins"
+			(at 97.79 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "877f3cab-da70-48e4-82eb-b70c0e6f1d09")
+		)
+		(pin "2"
+			(uuid "42a1c1b8-a284-4de5-8b48-a1b8c8cf6e89")
+		)
+		(instances
+			(project ""
+				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -17059,73 +17063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 321.31 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c108d493-1fd1-432e-b643-8559048b9fdd")
-		(property "Reference" "#PWR010"
-			(at 327.66 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 325.12 185.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 321.31 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 321.31 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 321.31 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e9d90ad-3127-45cc-9db4-83d6c0a9088d")
-		)
-		(instances
-			(project "quartz58"
-				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 83.82 208.28 0)
 		(unit 1)
@@ -18469,6 +18406,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 328.93 199.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddfea5ff-faf4-43df-97de-35aa2ff9ca48")
+		(property "Reference" "#PWR015"
+			(at 328.93 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 328.93 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "866e9297-b4bc-4427-8851-d98842fc26fe")
+		)
+		(instances
+			(project "quartz58"
+				(path "/a630da1b-27bd-4d59-a0f0-6159ff5296b0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 26.67 64.77 90)
 		(unit 1)
@@ -19424,7 +19428,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 184.15 90)
+		(at 99.06 201.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19433,7 +19437,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4cc25d2-0213-4b3b-a15d-4a454798554d")
 		(property "Reference" "#PWR08"
-			(at 107.95 184.15 0)
+			(at 99.06 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19442,7 +19446,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 184.1499 90)
+			(at 101.6 200.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19451,7 +19455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 184.15 0)
+			(at 99.06 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19460,7 +19464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 184.15 0)
+			(at 99.06 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19469,7 +19473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 184.15 0)
+			(at 99.06 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
