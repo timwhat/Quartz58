@@ -16,9 +16,9 @@ Exploded view of the CAD currently
 
 ### PCB
 
-![PCB](IMGS/pcb20250806.png)
+![PCB](IMGS/pcb20250817pt5.png)
 
-With the fill!
+BASE!
 
 ![with the fill](IMGS/pcb20250806pt2.png)
 
