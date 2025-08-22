@@ -569,3 +569,10 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 - And then I rearranged and updated the prices of the stuff on the BOM ready to update my reviewer to look over the changes I made to make sure its goodd!
 
 **Time Spent**: 3 hours
+
+## August 21:
+
+- Summer school recently finished! !
+- Started ordering stuff first from aliexpress as those would take the longest to come
+
+![](IMGS/bom20250822.png)
