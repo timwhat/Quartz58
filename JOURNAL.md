@@ -576,3 +576,5 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 - Started ordering stuff first from aliexpress as those would take the longest to come
 
 ![](IMGS/bom20250822.png)
+
+**Time Spent**: .25 hours
