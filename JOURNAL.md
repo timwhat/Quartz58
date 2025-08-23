@@ -602,3 +602,30 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 - while doing this I also found some minor issues with the extrusion distances, but I resolved them
 
 **Time Spent**: 2.5 hours
+
+## August 22:
+
+#### BOM
+
+- When I was getting ready to order everything else, something felt wrong about the typeractive and mouser order as they were wayyy to expensive
+- As when I was first creating the BOM I was rushing, and when I did more reaserch I found it was WAYYY cheaper to buy from aliexpress, and with enough time I found everything on there
+  - As one of the problems was the Mill Max Sockets, but with the power of a reddit post I found them, in addition to the ones for the displays
+- Also descovered a cheaper way to ship on jlcpcb, but it takes a few days longer, which I can deal with
+- Thus, I removed the typeractive order with alternatives on ali, in addition to adding in the switches and keycaps that I got since it can fit in the grant budget now
+
+![](IMGS/bom20250823.png)
+
+#### PCB
+
+- I moved the FFC and FPC connectors a 1mm down so if the Choc sockets are installed it won't be a pain to install that
+
+![](IMGS/pcb20250823pt3.png)
+
+- I also minorly improved the routing
+- AND I got the correct footprint for the RST buttons so they have holes for stability
+
+| Before                    | After                        |
+| ------------------------- | ---------------------------- |
+| ![](IMGS/pcb20250823.png) | ![](IMGS/pcb20250823pt2.png) |
+
+**Time Spent**: 2.5 hours (so far)
