@@ -578,3 +578,27 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 ![](IMGS/bom20250822.png)
 
 **Time Spent**: .25 hours
+
+## August 22:
+
+#### CAD (prep for better renders and cad practices)
+
+- Found out that I got the magnet thickness wrong and placement so I corrected that and now the rings more towards the center of the keyboard
+- I then went hunting for better switches and keycaps to use in the CAD, so I settled on the SA profile keycaps and some nice HD switches, although they do take some rendering time so I might change it back
+- I also changed the color of these switches and keycaps to make them match the keyboard by making a copy of them and importing them into another onshape document
+
+![](IMGS/cad20250823.png)
+
+- I also then changed it so that each part of the keyboard is its own assembly so its easier to edit n stuff
+- So I seperated the MAIN into top, plate, bottom, and electronics with case parts
+- but I still kept the original main since its gonna take a while to transfer the contexts, so I will finish this up in the coming days to make sure its perfect
+
+![](IMGS/cad20250823pt2.png)
+![](IMGS/cad20250823pt3.png)
+![](IMGS/cad20250823pt4.png)
+![](IMGS/cad20250823pt5.png)
+![](IMGS/cad20250823pt6.png)
+
+- while doing this I also found some minor issues with the extrusion distances, but I resolved them
+
+**Time Spent**: 2.5 hours
