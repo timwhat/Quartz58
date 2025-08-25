@@ -628,4 +628,29 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 | ------------------------- | ---------------------------- |
 | ![](IMGS/pcb20250823.png) | ![](IMGS/pcb20250823pt2.png) |
 
-**Time Spent**: 2.5 hours (so far)
+**Time Spent**: 2.5 hours
+
+## August 24:
+
+#### BOM
+
+- I pinged alex and asked baout the changes and he approved ittt!!
+- So I'm finally ordering everything n stuff!!
+
+![](IMGS/bom20250825.png)
+
+#### CAD
+
+- I fixed some CAD error I made where there was no distance between the pcb and wall of the bottom thing so I fixed that
+- I also updated the .step file in this
+
+![](IMGS/cad20250825.png)
+
+#### PCB
+
+- I was talking to my friends about silkscreen ideas and I got the GNU linux copypasta idea, so I stuck that at .4mm font size (.6 smaller than jlcpcb recomendations) under the mcu!
+- Although I might remove since it might make this not look nicee idk
+
+![](IMGS/pcb20250824.png)
+
+**Time Spent**: .5 hours
