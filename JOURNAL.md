@@ -592,12 +592,9 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 - I also then changed it so that each part of the keyboard is its own assembly so its easier to edit n stuff
 - So I seperated the MAIN into top, plate, bottom, and electronics with case parts
 - but I still kept the original main since its gonna take a while to transfer the contexts, so I will finish this up in the coming days to make sure its perfect
-
-![](IMGS/cad20250823pt2.png)
-![](IMGS/cad20250823pt3.png)
-![](IMGS/cad20250823pt4.png)
-![](IMGS/cad20250823pt5.png)
-![](IMGS/cad20250823pt6.png)
+  | ![](IMGS/cad20250823pt2.png) | ![](IMGS/cad20250823pt3.png) |
+  |------------------------------|------------------------------|
+  | ![](IMGS/cad20250823pt4.png) | ![](IMGS/cad20250823pt5.png) |
 
 - while doing this I also found some minor issues with the extrusion distances, but I resolved them
 
@@ -655,7 +652,7 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 
 **Time Spent**: .5 hours
 
-## August 24:
+## August 25:
 
 #### BOM
 
@@ -668,8 +665,9 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 - When I was tripple checking everything on the PCB I noticed this in jlcpcb's 3d viewer which looked odd, so I fixed that by basically filling in all of the holes instead of them just being a outline, I hadto do this with every other hole I made
 - Which was pretty tedious to check as it would only show in the jlcpcb viewer
 
-![](IMGS/pcb20250825.png)
-![](IMGS/pcb20250826pt2.png)
+| Before                    | After                        |
+| ------------------------- | ---------------------------- |
+| ![](IMGS/pcb20250825.png) | ![](IMGS/pcb20250826pt2.png) |
 
 - When looking at the encoder breakout I decided to add some silkscreen so I can still identify it n stuff
 
@@ -677,7 +675,36 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 
 - I also updated the PCB 3d view! in the README with these images
 
-![](IMGS/pcb20250825pt3.png)
-![](IMGS/pcb20250825pt4.png)
+| ![](IMGS/pcb20250825pt3.png) | ![](IMGS/pcb20250825pt4.png) |
+| :--------------------------: | :--------------------------: |
 
-**Time Spent**: 2
+**Time Spent**: 1.5 hours
+
+## August 26: Finished Ordering
+
+#### PCB
+
+- Doing final checks on the pcb I noticed that the letters were a bit close so I moved them
+
+|          Before           |            After             |
+| :-----------------------: | :--------------------------: |
+| ![](IMGS/pcb20250826.png) | ![](IMGS/pcb20250826pt3.png) |
+
+- I also moved the traces and diodes away from the edges to avoid any conflicts
+
+| ![](IMGS/pcb20250826pt4.png) | ![](IMGS/pcb20250826pt5.png) |
+| :--------------------------: | :--------------------------: |
+
+#### BOM
+
+- I finally ordered my PCB, I selected it so that it was white along with no marking on the pcb
+- I was considering ENIG because of my 0.5mm pitch on the FFC connectors but I decided to go with the default since it was much cheaper
+
+![](IMGS/bom20250826pt2.png)
+
+- I also ordered the trackpad from mouser and placed a donation to hackclub for $7.29, the diffrence of me getting a second once + tax on that
+
+![](IMGS/bom20250826pt3.png)
+![](IMGS/bom20250826pt4.png)
+
+**Time Spent**: 1.5 hours
