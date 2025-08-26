@@ -671,6 +671,10 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 ![](IMGS/pcb20250825.png)
 ![](IMGS/pcb20250826pt2.png)
 
+- When looking at the encoder breakout I decided to add some silkscreen so I can still identify it n stuff
+
+![](IMGS/pcb20250825pt2.png)
+
 - I also updated the PCB 3d view! in the README with these images
 
 ![](IMGS/pcb20250825pt3.png)
