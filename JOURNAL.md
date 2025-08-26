@@ -654,3 +654,26 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 ![](IMGS/pcb20250824.png)
 
 **Time Spent**: .5 hours
+
+## August 24:
+
+#### BOM
+
+- Bought all of aliexpress stuff, and it was so many items and since they seperated them into different orders I uploaded like 10 recipts for this
+
+![](IMGS/bom20250826.png)
+
+#### PCB
+
+- When I was tripple checking everything on the PCB I noticed this in jlcpcb's 3d viewer which looked odd, so I fixed that by basically filling in all of the holes instead of them just being a outline, I hadto do this with every other hole I made
+- Which was pretty tedious to check as it would only show in the jlcpcb viewer
+
+![](IMGS/pcb20250825.png)
+![](IMGS/pcb20250826pt2.png)
+
+- I also updated the PCB 3d view! in the README with these images
+
+![](IMGS/pcb20250825pt3.png)
+![](IMGS/pcb20250825pt4.png)
+
+**Time Spent**:

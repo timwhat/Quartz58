@@ -16,7 +16,8 @@ Exploded view of the CAD currently
 
 ### PCB
 
-![PCB](IMGS/pcb20250817pt5.png)
+![](IMGS/pcb20250825pt3.png)
+![](IMGS/pcb20250825pt4.png)
 
 BASE!
 
