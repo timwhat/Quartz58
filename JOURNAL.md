@@ -680,4 +680,4 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 ![](IMGS/pcb20250825pt3.png)
 ![](IMGS/pcb20250825pt4.png)
 
-**Time Spent**:
+**Time Spent**: 2
