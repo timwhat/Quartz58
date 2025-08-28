@@ -698,7 +698,7 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 #### BOM
 
 - I finally ordered my PCB, I selected it so that it was white along with no marking on the pcb
-- I was considering ENIG because of my 0.5mm pitch on the FFC connectors but I decided to go with the default since it was much cheaper
+- I was considering ENIG because of my 0.5mm pitch on the FFC connectors but I decided to go with the default since it was much cheaper!
 
 ![](IMGS/bom20250826pt2.png)
 
@@ -708,3 +708,17 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 ![](IMGS/bom20250826pt4.png)
 
 **Time Spent**: 1.5 hours
+
+## August 26: I am not the brightest
+
+- When ordering the PCB I didn't select the 3 designs part, so I had to pay the difference out of pocket
+- So after paying out of pocket I natrually had soem regrets as I could've made it all one pcb so it could snap, or made it reversable or something
+  - which I will do in the next iteration?? hopefully along with adding screw holes in the board for a more flexible mounting style if I ever change my mind
+
+![](IMGS/bom20250826pt5.png)
+
+- I also noticed after that I made a mistake when ordering one of the ribbion cables as the 6 pin should've been reversed, but I did not do that so I need to do do something sketch to fix that.
+
+![](IMGS/pcb20250827.png)
+
+**Time Spent**: .5 hours
