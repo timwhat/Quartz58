@@ -722,3 +722,36 @@ and onshape while updating one of my context's decided to crashout on me :/ but 
 ![](IMGS/pcb20250827.png)
 
 **Time Spent**: .5 hours
+
+## September 2
+
+- I haven't really updated due to school starting up and not really working on this but I am now
+
+#### BOM
+
+My parts started arriving from aliexpress!!
+
+| ![](IMGS/bom20250902pt1.png) | ![](IMGS/bom20250902pt2.png) |
+| :--------------------------: | :--------------------------: |
+
+- And from mouser! and I got to try out my sketch way to convert this forward FFC ribbion cable to a reverse version
+- I did this by removing the blue part and just flipping it as shown in the picutre
+- And it worked when testing it with a multimeter continuity test and using the pads between the trackpads I got. (ordered one extra out of pocket for backup as explained before)
+
+| ![](IMGS/bom20250902pt3.png) | ![](IMGS/bom20250902pt5.png) | ![](IMGS/bom20250902pt4.png) |
+| :--------------------------: | :--------------------------: | :--------------------------: |
+
+#### ZMK
+
+- Over the weekend I spent my time converting my macropad to use zmk studio so I would have a feel for it before converting it over here
+- So I just make the same changes here
+- Although Currently I have a rough physical layout but over time I'll polish it
+
+| ![](IMGS/zmk20250902pt1.png) | ![](IMGS/zmk20250902pt2.png) |
+| :--------------------------: | :--------------------------: |
+
+- I also added a zmk.yml for my keyboard
+
+![](IMGS/zmk20250902pt3.png)
+
+**Time Spent**: 1.5 hours
