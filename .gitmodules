@@ -1,0 +1,3 @@
+[submodule "ZMK"]
+	path = ZMK
+	url = https://github.com/timwhat/zmk-config-quartz58.git
